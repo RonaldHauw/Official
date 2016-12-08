@@ -1,0 +1,21 @@
+- model: neighbourhood.neighbourhood
+  pk: 1
+  fields: {name: Smarthouses}
+- model: neighbourhood.neighbourhood
+  pk: 2
+  fields: {name: Heverlee}
+- model: neighbourhood.house
+  pk: 1
+  fields: {name: House one, neighbourhood: demo_id}
+- model: neighbourhood.house
+  pk: 2
+  fields: {name: House two, neighbourhood: demo_id}
+- model: neighbourhood.room
+  pk: 1
+  fields: {house: 1, name: Kitchen, description: Duurzame keuken}
+- model: neighbourhood.room
+  pk: 2
+  fields: {house: 2, name: library, description: Here we store our books.}
+- model: neighbourhood.room
+  pk: 3
+  fields: {house: 1, name: Living Room, description: Hallo}

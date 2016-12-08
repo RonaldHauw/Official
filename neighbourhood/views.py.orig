@@ -1,0 +1,63 @@
+# from neighbourhood import *
+# from index import *
+# from Demopage import *
+
+from django.shortcuts import render
+
+# Create your views here.
+from django.http import HttpResponse
+from django.template import loader
+from models import House,Room
+
+from django.template.response import TemplateResponse
+
+def house(request,id):
+
+    all_houses = House.objects.all()
+    template = loader.get_template('neighbourhood/house.html')
+    context = {
+        'house': House.objects.get(id=id)
+    }
+    return TemplateResponse(request,template,context)
+
+def room(request,id):
+
+    all_rooms = Room.objects.all()
+    context = {
+        'room': Room.objects.get(id=id)
+    }
+    template = loader.get_template('neighbourhood/room.html')
+   # return HttpResponse(template.render(context,request))
+    return TemplateResponse(request,'house/room.html',{"data": all_rooms})
+
+
+
+def indexneighbourhood(request):
+    template = loader.get_template('neighbourhood/indexneighbourhood.html')
+    return HttpResponse(template.render(request))
+
+def Root(request):
+    template = loader.get_template('Index.html')
+    return HttpResponse(template.render(request))
+
+def centralcontrol(request):
+    template = loader.get_template('indexcentralcontrol.html')
+    return HttpResponse(template.render(request))
+
+def Demo_homepage(request):
+    template = loader.get_template('demo/demo_homepage.html')
+    return HttpResponse(template.render(request))
+
+
+
+def Root(request):
+    template = loader.get_template('Index.html')
+    return HttpResponse(template.render(request))
+
+def centralcontrol(request):
+    template = loader.get_template('indexcentralcontrol.html')
+    return HttpResponse(template.render(request))
+
+def Demo_homepage(request):
+    template = loader.get_template('demo/demo_homepage.html')
+    return HttpResponse(template.render(request))

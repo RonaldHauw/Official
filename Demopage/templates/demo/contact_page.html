@@ -1,0 +1,266 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="{% static "images/icoon.png" %}">
+
+    <title>Demo Smart Energy Houses Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="{% static "css/ie10-viewport-bug-workaround.css" %}" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="{% static "js/ie-emulation-modes-warning.js" %}"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="{% static "css/carousel.css" %}" rel="stylesheet">
+  </head>
+
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href={% url 'Demo_homepage' %}>Demo </a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li ><a href={% url 'Demo_homepage' %}>Home</a></li>
+                <li><a href={% url 'Demo_uitleg' %}>Demo uitleg</a></li>
+                  <li class="active"><a href={% url 'Contact_page' %}>Contact</a></li>
+
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Project <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Database - Interface - Central Control</a></li>
+                    <li><a href="#">Elektronica - Communicatie - Optimalisatie</a></li>
+                    <li><a href="#">Encryptie</a></li>
+
+                  </ul>
+                    </li>
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Navigate <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href={% url 'Root' %}>Index</a></li>
+                      <li><a href={% url 'User_homepage' %}>Interface</a></li>
+                      <li class="active"><a href={% url 'Demo_homepage' %}>Demonstrator</a></li>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Eigen toegevoegde witregel via css werking -->
+    <div id="vspace"> </div>
+    <div class="container marketing"
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src='{% static 'images/members/Arne.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Arne Lambeets</h2>
+          <p>Database - Inteface - Central Control</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Stijn.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Stijn Daerden</h2>
+          <p>Database - Inteface - Central Control</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Ronald.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Ronald Hauwaerts</h2>
+          <p>Database - Inteface - Central Control</p>
+
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+  <div id="vspace"> </div>
+    <div class="container marketing2"
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src='{% static 'images/members/Paulien.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Paulien</h2>
+          <p>Database - Inteface - Central Control</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Vic.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Viktor</h2>
+          <p>Database - Inteface - Central Control</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Albert.jpg'%}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Lorenz</h2>
+          <p>Database - Inteface - Central Control</p>
+
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+    <div id="vspace"> </div>
+    <div class="container marketing2"
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src='{% static 'images/members/Jordy.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Jordy</h2>
+<p>Communicatie</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Laurens.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Laurens</h2>
+<p>Communicatie</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Emma.jpg'%}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Emma</h2>
+<p>Elektronisch circuit</p>
+
+
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+<div id="vspace"> </div>
+    <div class="container marketing2"
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src='{% static 'images/members/David.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>David</h2>
+<p>Elektronisch circuit</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Elias.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Elias</h2>
+<p>Optimalisatie</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Remco.jpg'%}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Remco</h2>
+<p>Optimalisatie</p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+
+<div id="vspace"> </div>
+    <div class="container marketing2"
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src='{% static 'images/members/StijnC.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Stijn</h2>
+          <p></p>
+<p>Encryptie</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Jasper.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Jasper</h2>
+<p>Encryptie</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Joachim.jpg'%}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Joachim</h2>
+<p>Encryptie</p>
+
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+    <div id="vspace"> </div>
+    <div class="container marketing2"
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src='{% static 'images/members/StijnB.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Tom</h2>
+          <p></p>
+<p>Encryptie</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src='{% static 'images/members/Wouter.jpg' %}' alt="Generic placeholder image" width="140" height="140">
+          <h2>Wouter</h2>
+<p>Encryptie</p>
+
+
+
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="{% static "js/holder.min.js" %}"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>
+  </body>
+</html>
