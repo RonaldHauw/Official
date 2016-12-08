@@ -1,0 +1,42 @@
+#neighbourhoods
+- model: neighbourhood.neighbourhood
+
+  pk: 1
+  fields:
+    name: Heverlee
+    ip_address: 0
+
+#houses
+- model: neighbourhood.house
+  pk: 1
+  fields:
+    name: Slimhuis
+    ip_address: 169.254.173.25
+    neighbourhood: 1
+
+####################################################
+#Rooms(slim huis)
+- model: neighbourhood.room
+  pk: 1
+  fields:
+    name: Keuken
+    ip_address: 0
+    house: 1
+
+
+##################################################################
+# smart devices
+
+- model: neighbourhood.smart_devices
+  pk: 1
+  fields:
+    name: Laadpaal
+    ref_id: LA
+    power: 1000
+    duration: 0
+    begin_time: None
+    status: 000
+    pin_number: 26
+    pin_type: Output
+    room: 1
+

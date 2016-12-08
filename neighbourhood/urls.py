@@ -15,15 +15,15 @@ urlpatterns = [
     url(r'^$',views.indexcentralcontrol, name='IndexCentralControl'),
     url(r'^testinterface',views.testinterface, name='testinterface'),
 
-    url(r'^status/(?P<house_ip>\w+)/(?P<room_id>[0-9]+)/(?P<device_ref_id>\w+)/(?P<value>[0-9]+)$', auxilary.change_status, name='status'),
-
+    url(r'^neighbourhood/status/(?P<device_id>[0-9]+)/(?P<status>[0-9]+)$', auxilary.change_status, name='status'),
     url(r'^doityourself',views.handmatig, name='handmatig'),
     url(r'^optimalisated',views.vergelijking, name = 'vergelijking'),
+    url(r'^TEST',auxilary.test, name = 'TEST'),
 
 
 ]
 
-
+#/(?P<house_ip>\w+)/(?P<room_id>[0-9]+)/(?P<device_ref_id>\w+)/(?P<value>[0-9]+)$'
 
 
 

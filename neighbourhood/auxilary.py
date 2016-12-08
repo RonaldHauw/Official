@@ -22,15 +22,42 @@ from neighbourhood.models import Smart_Devices
 #     SendInformation('%s:8080' % house.ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
 #     # de room waarnaar het moet gaan
 
-def change_status(request, house_ip, room_id, device_ref_id, value):
+def change_status(request, device_id, value):
+    device = Smart_Device.object.get(id=device_id)
+    house = device.room.house
+    ip = house.ip_address
+
+
+
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value
     en stuurt dit door via informatie
     """
-
-    message = make_huge_string('change_status',room_id,device_ref_id,'status',value,'input','0')
+    initialize()
+    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,'Input','0')
     SendInformation('%s:8080' % house_ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
+
+def test(request):
+    initialize()
+    message = make_huge_string('change_status', '1', 'LA', 'status', '100', 'Input',0, '26')
+    SendInformation('%s:8080' % '169.254.173.25',message)  # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
+    # de room waarnaar het moet gaan
+
+
+
+
+    template = loader.get_template('neighbourhood/indexneighbourhood.html')
+    return HttpResponse(template.render(request))
+
+
+
+
+
+
+
+
+
 
 
 

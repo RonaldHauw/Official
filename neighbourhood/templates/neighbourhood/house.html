@@ -186,89 +186,28 @@ $(document).ready(function() {
 
 
 {% block showalldevices %}
-
-
-
-
-
-
-
-
-
-
-
     <div class="row">
     {% for room in house.room_set.all %}
 
-        <div id="cont" class="container">
-
 
         <h3>{{ room.name }}</h3>
-
-        <ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div id="cont" class="container">
 <div class="col-md-4">
 <h3 >Slimme Apparaten</h3>
-
 {% for device in room.smart_devices_set.all %}
-
     <h4 id="vspace">{{ device.name }}</h4>
-
-
-
-
-
-
-
     {% if device.name == "Wasmachine" %}
         <img id="afbeelding"  src='{% static 'images/devices/wasmachine.jpg' %}' alt="Wasmachine">
     {% endif %}
  {% if device.name == "Laadpaal" %}
         <img id="afbeelding"  src='{% static 'images/devices/laadpaal.jpg' %}' alt="Laadpaal">
     {% endif %}
-
-
-
-
-
-
-
 <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet uit</button>
+ <button id="knop" type="button"  class="btn btn-sm btn-success"  onclick=location.href='{% url 'TEST'%}'>Zet aan</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
 </div>
 {% endfor %}
-
-
-
 </div>
-</ul>
-        <ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="col-md-4">
 <h3>Koelkasten</h3>
 {% for device in room.fridges_set.all %}
@@ -283,55 +222,25 @@ $(document).ready(function() {
     {% if device.name == "Diepvriezer" %}
         <img id="afbeelding"  src='{% static 'images/devices/diepvriezer.jpg' %}' alt="Diepvriezer">
     {% endif %}
-
-
  <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet uit</button>
+ <button id="knop" type="button"  class="btn btn-sm btn-success"  href={% url 'status' device.id 0 %}>Zet aan</button>
+    <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
 </div>
 {% endfor %}
-
-
-
 </div>
-</ul>
-        <ul>
-
-
-
-
-
-
-
-
-
-
-
 <div class="col-md-4">
 <h3>Batterijen</h3>
 {% for device in room.battery_set.all %}
-
     <h4 id="vspace">{{ device.name }}</h4>
-
  {% if device.name == "Battery" %}
         <img id="afbeelding"  src='{% static 'images/devices/batterij.jpg' %}' alt="batterij">
     {% endif %}
-
-
-
-
-
     <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet uit</button>
+ <button id="knop" type="button"  class="btn btn-sm btn-success"  href={% url 'status' device.id 0 %}>Zet aan</button>
+    <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
 </div>
 {% endfor %}
-
-
-
 </div>
-</ul>
-        <ul>
 
 
 
@@ -340,10 +249,11 @@ $(document).ready(function() {
 
 
 
-
+</div><div class="containter">
 <div id="dumb" class="row">
-<div class="col-md-4">
+
 <h3>Domme Apparaten</h3>
+<div class="col-md-4">
 {% for device in room.stupid_devices_set.all %}
 
     <h4 id="vspace">{{ device.name }}</h4>
@@ -357,8 +267,8 @@ $(document).ready(function() {
 
 
  <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href="{% url "status" room.house.ip_address room.id device.ref_id '000' %}">Zet uit</button>
+ <button id="knop" type="button"  class="btn btn-sm btn-success"  href={% url 'status' device.id 0 %}>Zet aan</button>
+    <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
 </div>
 {% endfor %}
 
@@ -368,9 +278,8 @@ $(document).ready(function() {
 </ul>
         <ul>
 
-</div>
         {% endfor %}
-
+</div>
     </div>
 
 {% endblock %}

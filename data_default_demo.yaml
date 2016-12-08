@@ -10,15 +10,15 @@
 - model: neighbourhood.house
   pk: 1
   fields:
-    name: Slim huis
-    ip_address: 0
+    name: Slimhuis
+    ip_address: 169.254.173.25
     neighbourhood: 1
 
 - model: neighbourhood.house
   pk: 2
   fields:
     name: Normaal huis
-    ip_address: 0
+    ip_address: 169.254.86.225
     neighbourhood: 1
 ####################################################
 #Rooms(slim huis)
@@ -56,6 +56,9 @@
     name: Slaapkamer
     ip_address: 0
     house: 1
+
+
+
 
 #rooms(normaal huis)
 
@@ -100,13 +103,13 @@
   pk: 1
   fields:
     name: Laadpaal
-    ref_id: 1KELA
+    ref_id: LA
     power: 1000
     duration: 0
     begin_time: None
     status: 000
-    pin_number: 0
-    pin_type: None
+    pin_number: 26
+    pin_type: Output
     room: 1
 
 - model: neighbourhood.smart_devices
@@ -134,6 +137,70 @@
     pin_number: 0
     pin_type: None
     room: 1
+
+
+
+
+- model: neighbourhood.smart_devices
+  pk: 4
+  fields:
+    name: Afwasmachine
+    ref_id: 1GAAF
+    power: 1000
+    duration: 0
+    begin_time: None
+    status: 000
+    pin_number: 0
+    pin_type: None
+    room: 2
+
+- model: neighbourhood.smart_devices
+  pk: 5
+  fields:
+    name: Afwasmachine
+    ref_id: 1GAAF
+    power: 1000
+    duration: 0
+    begin_time: None
+    status: 000
+    pin_number: 0
+    pin_type: None
+    room: 2
+
+- model: neighbourhood.smart_devices
+  pk: 6
+  fields:
+    name: Wasmachine
+    ref_id: 1KEWA2
+    power: 2000
+    duration: 0
+    begin_time: None
+    status: 000
+    pin_number: 0
+    pin_type: None
+    room: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ####################################################################
