@@ -36,4 +36,21 @@ def centralcontrol(request):
     return HttpResponse(template.render(request))
 
 
+def DemoDatabaseInterfaceCentralcontrolunit(request):
+    template = loader.get_template('demo/DemoDatabaseInterfaceCentralcontrolunit.html')
+    return HttpResponse(template.render(request))
+
+def Demo_Encryptie(request):
+    template = loader.get_template('demo/Demo_Encryptie.html')
+    return HttpResponse(template.render(request))
+
+def Demo_Communicatie_Elektronica_Optimalisatie(request):
+    template = loader.get_template('demo/Demo_Communicatie_Elektronica_Optimalisatie.html')
+    return HttpResponse(template.render(request))
+
+def vergelijking(request):
+    template = loader.get_template('neighbourhood/vergelijking.html')
+    return HttpResponse(template.render(request))
+
+
 

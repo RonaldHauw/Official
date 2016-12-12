@@ -1,137 +1,1 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="{% static "images/icoon.png" %}">
-
-    <title>Demo Smart Energy Houses Project</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="{% static "css/ie10-viewport-bug-workaround.css" %}" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="{% static "js/ie-emulation-modes-warning.js" %}"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="{% static "css/carousel.css" %}" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href={% url 'Demo_homepage' %}>Demo</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li ><a href={% url 'Demo_homepage' %}>Home</a></li>
-                  <li class="active"><a href={% url 'Demo_uitleg' %}>Demo uitleg</a></li>
-                  <li><a href={% url 'Contact_page' %}>Contact</a></li>
-
-                  <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Project <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Database - Interface - Central Control</a></li>
-                    <li><a href="#">Elektronica - Communicatie - Optimalisatie</a></li>
-                    <li><a href="#">Encryptie</a></li>
-                  </ul>
-                      </li>
-                  <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Navigate <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                      <li><a href={% url 'Root' %}>Index</a></li>
-                      <li><a href={% url 'User_homepage' %}>Interface</a></li>
-                      <li class="active"><a href={% url 'Demo_homepage' %}>Demonstrator</a></li>
-
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>
-
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Slimme-energie woningen </h2>
-            <h3 class="text-muted">Red het milieu!</h3>
-          <p class="lead"> Vandaag de dag zijn kern- en gascentrales de hoofdleveranciers van energie, maar zijn ook zeer schadelijk voor het milieu. De mensheid staat voor de uitdaging om alleen nog maar afhankelijkte zijn van hernieuwbare energie. Maar hernieuwbare bronnen zijn niet goed bestemd tegen pieken in het stroomnet. Slimme energie woningen proberen dit probleem aan te pakken.  </p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Vraagzijdesturing</h2>
-          <p class="lead"> Een slimme-energie <woning> </woning> is een woning die de energieconsumptie kan aansturen d.m.v. vraagzijdesturing. Het is een woning die zich informeert over de huidige energieproductie en zich hier op aanpast.  Hierbij is het gebruik van een Smart Grid aangewezen. Dit is een elektriciteitsnetwerk dat communicatie toelaat in twee richtingen. Zowel van leverancier naar gebruiker als van gebruiker naar leverancier. De uitwisseling van informatie tussen huis en leverancier of beheerder verloopt langs een beveiligde communicatielijn. </p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{% static "js/jquery.min.js" %}"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="{% static "js/bootstrap.min.js" %}"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="{% static "js/holder.min.js" %}"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>
-  </body>
-</html>
+{% load static %}<!DOCTYPE html><html lang="en">  <head>    <meta charset="utf-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1">    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->    <meta name="description" content="">    <meta name="author" content="">    <link rel="icon" href="{% static "images/icoon.png" %}">    <title>Demo Smart Energy Houses Project</title>    <!-- Bootstrap core CSS -->    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->    <link href="{% static "css/ie10-viewport-bug-workaround.css" %}" rel="stylesheet">    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->    <script src="{% static "js/ie-emulation-modes-warning.js" %}"></script>    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->    <!--[if lt IE 9]>      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>    <![endif]-->    <!-- Custom styles for this template -->    <link href="{% static "css/carousel.css" %}" rel="stylesheet">  </head><!-- NAVBAR================================================== -->  <body>    <div class="navbar-wrapper">      <div class="container">        <nav class="navbar navbar-inverse navbar-static-top">          <div class="container">            <div class="navbar-header">              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">                <span class="sr-only">Toggle navigation</span>                <span class="icon-bar"></span>                <span class="icon-bar"></span>                <span class="icon-bar"></span>              </button>              <a class="navbar-brand" href={% url 'Demo_homepage' %}>Demo</a>            </div>            <div id="navbar" class="navbar-collapse collapse">              <ul class="nav navbar-nav">                <li ><a href={% url 'Demo_homepage' %}>Home</a></li>                  <li class="active"><a href={% url 'Demo_uitleg' %}>Demo uitleg</a></li>                  <li class="dropdown">                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Project <span class="caret"></span></a>                  <ul class="dropdown-menu">                    <li><a href={% url 'DemoDatabaseInterfaceCentralcontrolunit' %}>Database - Interface - Central Control</a></li>                    <li><a href={% url 'Demo_Communicatie_Elektronica_Optimalisatie' %}>Elektronica - Communicatie - Optimalisatie</a></li>                    <li><a href={% url 'Demo_Encryptie' %}>Encryptie</a></li>                  </ul>                      </li>                  <li class="dropdown">                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Navigatie <span class="caret"></span></a>                  <ul class="dropdown-menu">                      <li><a href={% url 'Root' %}>Index</a></li>                      <li><a href={% url 'User_homepage' %}>Interface</a></li>                      <li class="active"><a href={% url 'Demo_homepage' %}>Demonstrator</a></li>                  </ul>                </li>                  <li><a href={% url 'Contact_page' %}>Contact</a></li>              </ul>            </div>          </div>        </nav>      </div>    </div>      <!-- START THE FEATURETTES -->      <hr class="featurette-divider">      <div class="row featurette">        <div class="col-md-7">          <h2 class="featurette-heading">Vraagzijdesturing</h2>          <p class="lead"> Een slimme-energie woning is een woning die de energieconsumptie kan aansturen d.m.v. vraagzijdesturing. Het is een woning die zich informeert over de huidige energieproductie en zich hier op aanpast.  Hierbij is het gebruik van een Smart Grid aangewezen. Dit is een elektriciteitsnetwerk dat communicatie toelaat in twee richtingen. Zowel van leverancier naar gebruiker als van gebruiker naar leverancier. De uitwisseling van informatie tussen huis en leverancier of beheerder verloopt langs een beveiligde communicatielijn. </p>       </div>        <div class="col-md-5">          <img class="featurette-image img-responsive center-block" id="paul"  src="{% static "images/vraagzijdesturingfoto.jpg" %}">        </div>      </div>      <hr class="featurette-divider">      <div class="row featurette">        <div class="col-md-7 col-md-push-5">          <h2 class="featurette-heading">Prijsverandering in het net</h2>          <p class="lead"> Het nadeel van hernieuwbare energie is dat er minder opslag capaciteit is. Om grote pieken in het net te vermijden  opteren we voor een variabele prijs. De prijs verandert om de 15 minuten zodat het goed afgesteld is op de optimalisatie.  Je kan de prijs zien in <a href={% url 'Vergelijking' %}>Vergelijking</a>. </p>        </div>        <div class="col-md-5 col-md-pull-7">          <img class="featurette-image img-responsive center-block" id="paul"  src="{% static "images/prijsveranderingfoto.png" %}">        </div>      </div>      <hr class="featurette-divider">      <!-- /END THE FEATURETTES -->      <!-- FOOTER -->      <footer>        <p class="pull-right"><a href="#">Back to top</a></p>        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>      </footer>    </div><!-- /.container -->    <!-- Bootstrap core JavaScript    ================================================== -->    <!-- Placed at the end of the document so the pages load faster -->    <script src="{% static "js/jquery.min.js" %}"></script>    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>    <script src="{% static "js/bootstrap.min.js" %}"></script>    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->    <script src="{% static "js/holder.min.js" %}"></script>    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->    <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>  </body></html>
