@@ -1,9 +1,8 @@
 {% extends "neighbourhood/usertemplate.html" %}
 {% load static %}
-
 {% block title %} Slimme energiewoningen | {{ house.name}}{% endblock %}
 
-{% block topheader %} Welkom bij Huis {{ house.id }}{% endblock %}
+{% block topheader %}{{ house.name }}{% endblock %}
 
 
 {% block topheader_content %}
@@ -91,9 +90,12 @@ var myChart = new Chart(ctx, {
     <div class="col-md-4">
         <h2>Totale kostprijs</h2>
         <p>Hier komen twee counters die vertelen hoeveel men door een geoptimaliseerd energiegebruik kan besparen en hoeveel de totale kosten zijn.  </p>
+        <h2>Bekijk het dagverloop</h2>
 
 
-        <p><a class="btn btn-default" href="#" role="button">Meer details &raquo;</a></p>
+            <p><a class="btn btn-default" onclick=location.href="{% url "start" %}" role="button">Start een dag&raquo;</a></p>
+
+
     </div>
 {% endblock %}
 
@@ -185,103 +187,153 @@ $(document).ready(function() {
 
 
 
+
+
+<!--  Deel dat de knoppen zal schrijven -->
 {% block showalldevices %}
-    <div class="row">
+    <meta http-equiv="refresh" content="1" >
     {% for room in house.room_set.all %}
 
 
-        <h3>{{ room.name }}</h3>
-<div id="cont" class="container">
-<div class="col-md-4">
-<h3 >Slimme Apparaten</h3>
+        <h3>Apparaten in {{ room.name }}</h3>
+        <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
+        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
+<h4>Slimme Apparaten</h4>
+        </div>
+        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
 {% for device in room.smart_devices_set.all %}
-    <h4 id="vspace">{{ device.name }}</h4>
+    <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
+    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
+    <h5 id="vspace">{{ device.name }} - {{ device.status }}%</h5>
     {% if device.name == "Wasmachine" %}
         <img id="afbeelding"  src='{% static 'images/devices/wasmachine.jpg' %}' alt="Wasmachine">
+    {% endif %}
+    {% if device.name == "Afwasmachine" %}
+    <img id="afbeelding"  src='{% static 'images/devices/afwasmachine.jpg' %}' alt="Wasmachine">
     {% endif %}
  {% if device.name == "Laadpaal" %}
         <img id="afbeelding"  src='{% static 'images/devices/laadpaal.jpg' %}' alt="Laadpaal">
     {% endif %}
-<div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  onclick=location.href='{% url 'TEST'%}'>Zet aan</button>
-   <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
-</div>
-{% endfor %}
-</div>
-<div class="col-md-4">
-<h3>Koelkasten</h3>
-{% for device in room.fridges_set.all %}
-
-    <h4 id="vspace">{{ device.name }}</h4>
-
-
-    {% if device.name == "Koelkast" %}
-        <img id="afbeelding"  src='{% static 'images/devices/koelkast.jpg' %}' alt="Koelkast">
-    {% endif %}
-
-    {% if device.name == "Diepvriezer" %}
-        <img id="afbeelding"  src='{% static 'images/devices/diepvriezer.jpg' %}' alt="Diepvriezer">
-    {% endif %}
- <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href={% url 'status' device.id 0 %}>Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
-</div>
-{% endfor %}
-</div>
-<div class="col-md-4">
-<h3>Batterijen</h3>
-{% for device in room.battery_set.all %}
-    <h4 id="vspace">{{ device.name }}</h4>
- {% if device.name == "Battery" %}
-        <img id="afbeelding"  src='{% static 'images/devices/batterij.jpg' %}' alt="batterij">
-    {% endif %}
-    <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href={% url 'status' device.id 0 %}>Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
-</div>
-{% endfor %}
-</div>
-
-
-
-
-
-
-
-
-</div><div class="containter">
-<div id="dumb" class="row">
-
-<h3>Domme Apparaten</h3>
-<div class="col-md-4">
-{% for device in room.stupid_devices_set.all %}
-
-    <h4 id="vspace">{{ device.name }}</h4>
-
-
-{% if device.name == "Oven" %}
-        <img id="afbeelding"  src='{% static 'images/devices/oven.jpg' %}' alt="oven">
-
-    {% endif %}
-
-
-
- <div id="cont1" class="row">
- <button id="knop" type="button"  class="btn btn-sm btn-success"  href={% url 'status' device.id 0 %}>Zet aan</button>
-    <button id="knop" type="button" class="btn btn-sm btn-danger" href={% url 'status' device.id 0 %}>Zet uit</button>
-</div>
-{% endfor %}
-
-</div>
-
-</div>
-</ul>
-        <ul>
-
-        {% endfor %}
-</div>
+ <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 1 %}">Zet aan</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 1 %}">Zet uit</button>
     </div>
+    </div>
+{% endfor %}
+        </div>
+        </div>
 
+
+
+
+
+
+
+
+
+        <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
+        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
+<h4>Koelkasten</h4>
+        </div>
+        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+{% for device in room.fridges_set.all %}
+    <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
+    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
+    <h5 id="vspace">{{ device.name }} - {{ device.temperature }}°C</h5>
+    {% if device.name == "Koelkast" %}
+        <img id="afbeelding"  src='{% static 'images/devices/koelkast.jpg' %}' alt="Wasmachine">
+    {% endif %}
+ {% if device.name == "Diepvriezer" %}
+        <img id="afbeelding"  src='{% static 'images/devices/diepvriezer.jpg' %}' alt="Laadpaal">
+    {% endif %}
+  <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 2 %}">Zet aan</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 2 %}">Zet uit</button>
+    </div>
+    </div>
+{% endfor %}
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id="blockcontainer"class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
+        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
+<h4>Energieopslag</h4>
+        </div>
+        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+{% for device in room.battery_set.all %}
+    <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
+    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
+    <h5 id="vspace">{{ device.name }} - {{ device.charge_status }}% </h5>
+    {% if device.name == "Battery" %}
+        <img id="afbeelding"  src='{% static 'images/devices/batterij.jpg' %}' alt="Wasmachine">
+    {% endif %}
+ {% if device.name == "Laadpaal" %}
+        <img id="afbeelding"  src='{% static 'images/devices/laadpaal.jpg' %}' alt="Laadpaal">
+    {% endif %}
+  <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 3 %}">Laad op</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 3 %}">Stop opladen</button>
+       <button id="knopb" type="button" class="btn btn-sm btn-warning" href={% url 'status' device.id 060 0 3 %}>Geef energie</button>
+       <button id="knopb" type="button" class="btn btn-sm btn-primary" href={% url 'status' device.id 040 0 3 %}>Stop energie</button>
+
+    </div>
+    </div>
+{% endfor %}
+        </div>
+        </div>
+
+
+
+
+
+        <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
+        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
+<h4>Klassieke apparaten</h4>
+        </div>
+        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+{% for device in room.stupid_devices_set.all %}
+    <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
+    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
+    <h5 id="vspace">{{ device.name }}</h5>
+    {% if device.name == "Oven" %}
+        <img id="afbeelding"  src='{% static 'images/devices/oven.jpg' %}' alt="oven">
+        {% endif %}
+ <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 4 %}">Zet aan</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 4 %}">Zet uit</button>
+    </div>
+    </div>
+{% endfor %}
+        </div>
+        </div>
+
+
+               <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
+        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
+<h4>Verwarming</h4>
+        </div>
+        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+{% for device in room.Heating_set.all %}
+    <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
+    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
+    <h5 id="vspace">{{ device.name }}</h5>
+    {% if device.name == "Verwarming slim huis" %}
+        <img id="afbeelding"  src='{% static 'images/devices/thermos.jpg' %}' alt="Thermosstaat">
+        {% endif %}
+ <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 5 %}">Zet aan</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 5 %}">Zet uit</button>
+    </div>
+    </div>
+{% endfor %}
+        </div>
+        </div>
+
+
+{% endfor %}
 {% endblock %}
 
 

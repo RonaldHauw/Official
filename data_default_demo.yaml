@@ -26,35 +26,35 @@
   pk: 1
   fields:
     name: Keuken
-    ip_address: 0
+    ip_address: 169.254.173.25
     house: 1
 
 - model: neighbourhood.room
   pk: 2
   fields:
     name: Woonkamer
-    ip_address: 0
+    ip_address: 169.254.173.25
     house: 1
 
 - model: neighbourhood.room
   pk: 3
   fields:
     name: Gang
-    ip_address: 0
+    ip_address: 169.254.173.25
     house: 1
 
 - model: neighbourhood.room
   pk: 4
   fields:
     name: Badkamer
-    ip_address: 0
+    ip_address: 169.254.173.25
     house: 1
 
 - model: neighbourhood.room
   pk: 5
   fields:
     name: Slaapkamer
-    ip_address: 0
+    ip_address: 169.254.173.25
     house: 1
 
 
@@ -128,7 +128,7 @@
 - model: neighbourhood.smart_devices
   pk: 3
   fields:
-    name: Wasmachine
+    name: Afwasmachine
     ref_id: 1KEWA2
     power: 2000
     duration: 0

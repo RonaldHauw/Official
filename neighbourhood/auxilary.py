@@ -1,14 +1,23 @@
 from django.shortcuts import render
 
+
+
+
+
+
 # Create your views here.
 from django.http import HttpResponse
 from django.template import loader
-from models import House,Room
+from models import *
 from helpfunctions import *
 from Communicatie import *
 import time
 import timeit
 from neighbourhood.models import Smart_Devices
+from django.http import JsonResponse
+from django.shortcuts import render
+from django.template.response import TemplateResponse
+
 
 # def change_statusold(request, appliance_id, param_to_change, value):
 #     """
@@ -22,21 +31,63 @@ from neighbourhood.models import Smart_Devices
 #     SendInformation('%s:8080' % house.ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
 #     # de room waarnaar het moet gaan
 
-def change_status(request, device_id, value):
-    device = Smart_Device.object.get(id=device_id)
+def change_status_smart(request, device_id, value, roomorhouse, type):
+
+    type = int(type)
+    if type == 1:
+        device = Smart_Devices.objects.get(id=device_id)
+    elif type ==2:
+        device = Fridges.objects.get(id=device_id)
+    elif type ==3:
+        device = Battery.objects.get(id=device_id)
+    elif type ==4:
+        device = Stupid_Devices.get(id=device_id)
+    elif type ==5:
+        device = Heating.object.get(id=device_id)
+
+
+
     house = device.room.house
     ip = house.ip_address
 
-
-
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value
-    en stuurt dit door via informatie
+    en stuurt dit door via informatie ! nog oppassen want deze kan alleen smart devices aan '
     """
-    initialize()
+    #initialize()
     message = make_huge_string('change_status',device.room,device.ref_id,'status',value,'Input','0')
-    SendInformation('%s:8080' % house_ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
+    #SendInformation('%s:8080' % ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
+
+
+    # database updaten
+    device.status = value
+
+    #html response
+    if roomorhouse == 1:
+
+        template = loader.get_template('neighbourhood/room.html')
+        context = {
+            'house': Room.objects.get(house=device.room.house, name=device.room.name)
+        }
+    else:
+
+
+        template = loader.get_template('neighbourhood/house.html')
+        context = {
+            'house': House.objects.get(ip_address=house.ip_address)
+        }
+    return TemplateResponse(request, template, context)
+## als status bij type batterij 60 of 40 is heeft dit betrekking op het geven van energie
+# en het stoppen van geven van energie
+
+
+def Initialize_demo(request):
+    initialize()
+
+
+
+
 
 def test(request):
     initialize()
@@ -105,6 +156,10 @@ def centralcontrol(request):
     """
     het programma dat de central control managet
     """
+
+
+    # initialiseren
+    initialize()
 
     ### continue loop die per stap kijkt naar de tijd, de inputs en dan de database en commando's bijhorden uitvoerd
     starttime=timeit.default_timer()
@@ -197,6 +252,20 @@ def centralcontrol(request):
         #### !!!!!! Dit programma gaat gewoon kijken naar het resultaat van de optimalistatie en in functie van de tijd
         ###         De status van de betrokken apparaten aanpassen
 
+def givebattery(request, device_id, value):
+    device = Smart_Device.object.get(id=device_id)
+    house = device.room.house
+    ip = house.ip_address
+
+    """
+    verandert de opgegeven parameter van een  apparaat in de gegeven value
+    en stuurt dit door via informatie
+    """
+
+    message = make_huge_string('change_battery_appliance', device.room, device.ref_id, 'status', value, 'Input', '0')
+    SendInformation('%s:8080' % house_ip,
+                    message)  # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
+    # de room waarnaar het moet gaan
 
 
 def time_tijd_hele_dag_naar_24(curtime):
@@ -211,10 +280,6 @@ def print_time(curtime):
 
 
     return time_tijd_hele_dag_naar_24(curtime)
-
-
-
-
 
 def give_time_given_96(number):
     """

@@ -16,8 +16,7 @@ class House(models.Model):
     name = models.CharField(max_length=32)
 
     ip_address = models.CharField(max_length=32, default=0)
-
-
+    ref_id = models.CharField(max_length=32, default=0)
     neighbourhood = models.ForeignKey(Neighbourhood)
 
     def __str__(self):
@@ -32,6 +31,7 @@ class Room(models.Model):
 
     name = models.CharField(max_length=100)
     ip_address = models.CharField(max_length=32, default=0)
+
 
     description = models.TextField()
 
@@ -71,6 +71,7 @@ class Fridges(models.Model):
     begin_time = models.CharField(max_length=100, default=0)
     pin_number = models.CharField(max_length=100, default=0)
     pin_type = models.CharField(max_length=100, default=0)
+    temperature = models.CharField(max_length=100, default=5)
 
 
     description = models.TextField()
@@ -113,6 +114,7 @@ class Battery(models.Model):
     begin_time = models.CharField(max_length=100, default=0)
     pin_number = models.CharField(max_length=100, default=0)
     pin_type = models.CharField(max_length=100, default=0)
+    charge_status = models.CharField(max_length=100, default=40)
 
     description = models.TextField()
     room = models.ForeignKey(Room)

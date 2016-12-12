@@ -38,13 +38,13 @@ body {
     margin-right: 1cm;
 }
 #afbeelding{
-    width: 30%;
+    width: 3cm;
     margin: auto;
     margin-bottom: 3%;
-    height: 20%;
+    height: 3cm;
 }
 #knop{
-    width: 16%;
+    width: 1.7cm;
     height: 10%;
 
 
@@ -52,9 +52,22 @@ body {
 #container1{
    margin: auto;
     margin-top: 1cm;
+    width: 100%;
 
 }
 
 #dumb{
     margin-top: 1cm;
+}
+
+#deviceclass_separator{
+    margin-top: 7cm;
+}
+#blockcontainer{
+    margin-top: 1cm;
+}
+#knopb{
+    width: 2.5cm;
+    margin-left: 0.3cm;
+    margin-top: 0.3cm;
 }
