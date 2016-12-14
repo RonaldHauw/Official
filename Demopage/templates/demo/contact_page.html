@@ -55,26 +55,28 @@
               <ul class="nav navbar-nav">
                 <li ><a href={% url 'Demo_homepage' %}>Home</a></li>
                 <li><a href={% url 'Demo_uitleg' %}>Demo uitleg</a></li>
-                  <li class="active"><a href={% url 'Contact_page' %}>Contact</a></li>
+
 
                   <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Project <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Database - Interface - Central Control</a></li>
-                    <li><a href="#">Elektronica - Communicatie - Optimalisatie</a></li>
-                    <li><a href="#">Encryptie</a></li>
+                    <li><a href={% url 'DemoDatabaseInterfaceCentralcontrolunit' %}>Database - Interface - Central Control</a></li>
+                    <li><a href={% url 'Demo_Communicatie_Elektronica_Optimalisatie' %}>Elektronica - Communicatie - Optimalisatie</a></li>
+                    <li><a href={% url 'Demo_Encryptie' %}>Encryptie</a></li>
 
                   </ul>
                     </li>
                   <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Navigate <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Navigatie <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                       <li><a href={% url 'Root' %}>Index</a></li>
                       <li><a href={% url 'User_homepage' %}>Interface</a></li>
                       <li class="active"><a href={% url 'Demo_homepage' %}>Demonstrator</a></li>
 
+
                 </li>
               </ul>
+                  <li class="active"><a href={% url 'Contact_page' %}>Contact</a></li>
             </div>
           </div>
         </nav>
@@ -94,20 +96,20 @@
         <div class="col-lg-4">
 
           <img class="img-circle" src='{% static 'images/members/Arne.jpg' %}' alt="Generic placeholder image" width="140" height="140">
-          <h2>Arne Lambeets</h2>
-          <p>Database - Inteface - Central Control</p>
+          <h2>Arne</h2>
+          <p>Database - Interface - Central Control</p>
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src='{% static 'images/members/Stijn.jpg' %}' alt="Generic placeholder image" width="140" height="140">
-          <h2>Stijn Daerden</h2>
-          <p>Database - Inteface - Central Control</p>
+          <h2>Stijn</h2>
+          <p>Database - Interface - Central Control</p>
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src='{% static 'images/members/Ronald.jpg' %}' alt="Generic placeholder image" width="140" height="140">
-          <h2>Ronald Hauwaerts</h2>
-          <p>Database - Inteface - Central Control</p>
+          <h2>Ronald</h2>
+          <p>Database - Interface - Central Control</p>
 
 
         </div><!-- /.col-lg-4 -->
@@ -121,20 +123,20 @@
         <div class="col-lg-4">
 
           <img class="img-circle" src='{% static 'images/members/Paulien.jpg' %}' alt="Generic placeholder image" width="140" height="140">
-          <h2>Paulien</h2>
-          <p>Database - Inteface - Central Control</p>
+          <h2>Pauline</h2>
+          <p>Database - Interface - Central Control</p>
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src='{% static 'images/members/Vic.jpg' %}' alt="Generic placeholder image" width="140" height="140">
           <h2>Viktor</h2>
-          <p>Database - Inteface - Central Control</p>
+          <p>Database - Interface - Central Control</p>
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src='{% static 'images/members/Albert.jpg'%}' alt="Generic placeholder image" width="140" height="140">
           <h2>Lorenz</h2>
-          <p>Database - Inteface - Central Control</p>
+          <p>Database - Interface - Central Control</p>
 
 
         </div><!-- /.col-lg-4 -->
@@ -160,7 +162,7 @@
         <div class="col-lg-4">
           <img class="img-circle" src='{% static 'images/members/Emma.jpg'%}' alt="Generic placeholder image" width="140" height="140">
           <h2>Emma</h2>
-<p>Elektronisch circuit</p>
+<p>Elektronica</p>
 
 
 
@@ -175,7 +177,7 @@
 
           <img class="img-circle" src='{% static 'images/members/David.jpg' %}' alt="Generic placeholder image" width="140" height="140">
           <h2>David</h2>
-<p>Elektronisch circuit</p>
+<p>Elektronica</p>
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">

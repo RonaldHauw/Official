@@ -14,11 +14,12 @@ urlpatterns = [
     url(r'^Demo',views.Demo_homepage,name='Demo'),
     url(r'^$',views.indexcentralcontrol, name='IndexCentralControl'),
     url(r'^testinterface',views.testinterface, name='testinterface'),
-    url(r'^status/(?P<device_id>[0-9]+)/(?P<value>[0-9]+)/(?P<roomorhouse>[0-9]+)/(?P<type>[0-9]+)$', auxilary.change_status_smart, name='status'),
+    url(r'^status/(?P<device_id>[0-9]+)/(?P<value>[0-9]+)/(?P<roomorhouse>[0-9]+)/(?P<type>[0-9]+)$', auxilary.change_status, name='status'),
     url(r'^doityourself',views.handmatig, name='handmatig'),
-    url(r'^start', auxilary.centralcontrol, name='start'),
+    url(r'^start/(?P<house_id>[0-9]+)/(?P<roomorhouse>[0-9]+)/', auxilary.daytime, name='start'),
     url(r'^optimalisated',views.vergelijking, name = 'vergelijking'),
-    url(r'^TEST',auxilary.test, name = 'TEST'),
+    url(r'^initialise', auxilary.initialise, name='initialise'),
+
 
 
 ]

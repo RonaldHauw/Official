@@ -147,10 +147,11 @@ body {
 
 #firstcentral{
   opacity: 0.1;
-
-
 }
 
+#lor{
+  margin-top: 1.5cm;
+}
 .headerhuis1{
   background-color: #00CC00;
 }

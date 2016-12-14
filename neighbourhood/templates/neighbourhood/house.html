@@ -93,7 +93,7 @@ var myChart = new Chart(ctx, {
         <h2>Bekijk het dagverloop</h2>
 
 
-            <p><a class="btn btn-default" onclick=location.href="{% url "start" %}" role="button">Start een dag&raquo;</a></p>
+            <p><a class="btn btn-default" onclick=location.href="{% url "start" house.ref_id 0 %}" role="button">Start een dag&raquo;</a></p>
 
 
     </div>
@@ -191,11 +191,11 @@ $(document).ready(function() {
 
 <!--  Deel dat de knoppen zal schrijven -->
 {% block showalldevices %}
-    <meta http-equiv="refresh" content="1" >
+    <meta http-equiv="refresh" content="30" >
     {% for room in house.room_set.all %}
 
 
-        <h3>Apparaten in {{ room.name }}</h3>
+        <h3 onclick=location.href="{% url "initialise" %}">Apparaten in {{ room.name }}</h3>
         <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
         <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
 <h4>Slimme Apparaten</h4>
@@ -207,6 +207,9 @@ $(document).ready(function() {
     <h5 id="vspace">{{ device.name }} - {{ device.status }}%</h5>
     {% if device.name == "Wasmachine" %}
         <img id="afbeelding"  src='{% static 'images/devices/wasmachine.jpg' %}' alt="Wasmachine">
+    {% endif %}
+    {% if device.name == "Verlichting" %}
+        <img id="afbeelding"  src='{% static 'images/devices/licht.jpg' %}' alt="Wasmachine">
     {% endif %}
     {% if device.name == "Afwasmachine" %}
     <img id="afbeelding"  src='{% static 'images/devices/afwasmachine.jpg' %}' alt="Wasmachine">
@@ -221,6 +224,8 @@ $(document).ready(function() {
 {% endfor %}
         </div>
         </div>
+
+
 
 
 
