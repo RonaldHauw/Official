@@ -166,12 +166,12 @@
   pk: 5
   fields:
     name: Verlichting
-    ref_id: 2030
+    ref_id: 2040
     power: 2000
     duration: 0
     begin_time: None
     status: 000
-    pin_number: 2
+    pin_number: 3
     pin_type: PWM
     room: 1
 
@@ -272,14 +272,14 @@
 
 
 - model: neighbourhood.stupid_devices
-  pk: 1
+  pk: 2
   fields:
     name: Oven
     ref_id: 6002
     power: 1000
     pin_number: 5
     pin_type: Output
-    room: 1
+    room: 6
 
 #################################################################################
 
@@ -297,3 +297,9 @@
   fields:
     smart_device: 1
     timestamp: 40
+
+- model: neighbourhood.deadlines
+  pk: 3
+  fields:
+    smart_device: 2
+    timestamp: 23

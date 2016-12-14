@@ -3,6 +3,7 @@ import time
 #from neopixel import *
 from random import randrange
 #from Ledstrip import *
+from NORXv3 import *
 
 LED_COUNT = 59
 LED_PIN = 18
@@ -18,27 +19,27 @@ LED_INVERT = False
 #URL VAN HET SMART HOUSE NOG INGEVEN!!
 def SendInformation(URL,Message):
     global strip
-    URL,Message = str(URL),str(Message)
-   # if URL == '169.254.173.25:8080':
-   #     Ledstrip_CCU_To_HCU(strip, 10, 10)
+    URL,Message = str(URL),encrypt_text(str(Message))[0]
+#   if URL == '169.254.173.25:8080':
+#        Ledstrip_CCU_To_HCU(strip, 10, 10)
     connectie = httplib.HTTPConnection(URL)
     UniqueURL = '/IncomingInformation/' + Message
     connectie.request('POST',UniqueURL)
     response = connectie.getresponse().status
-   # if URL =='169.254.173.25:8080':
-   #     Ledstrip_HCU_To_CCU(strip, 10, 10)
+#    if URL =='169.254.173.25:8080':
+#        Ledstrip_HCU_To_CCU(strip, 10, 10)
     return str(response)
 
 
 def GetInformation(URL,Message):
     global strip
-    URL, Message = str(URL), str(Message)
+    URL, Message = str(URL), encrypt_text(str(Message))[0]
     connectie = httplib.HTTPConnection(URL)
     UniqueURL = '/OutgoingInformation/'+ Message
     connectie.request('GET',UniqueURL)
     response = connectie.getresponse()
-   # if URL =='169.254.173.25:8080':
-   #     Ledstrip_HCU_To_CCU(strip, 10, 10)
+#    if URL =='169.254.173.25:8080':
+#        Ledstrip_HCU_To_CCU(strip, 10, 10)
     return response.read()
 
 
@@ -72,7 +73,7 @@ def SendLCD(URL,lijn1="leeg",lijn2="leeg"):
         lijn2 = temp_lijn2
 
     connectie = httplib.HTTPConnection(URL)
-    UniqueURL = '/LCD/' + lijn1 + '/'+ lijn2
+    UniqueURL = '/LCD/' + encrypt_text(lijn1)[0] + '/'+ encrypt_text(lijn2)[0]
     connectie.request('POST',UniqueURL)
     response = connectie.getresponse().status
     return str(response)

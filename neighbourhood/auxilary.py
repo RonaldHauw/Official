@@ -34,7 +34,7 @@ def change_status(request, device_id, value, roomorhouse, type):
     elif type ==3:
         device = Battery.objects.get(id=device_id)
     elif type ==4:
-        device = Stupid_Devices.get(id=device_id)
+        device = Stupid_Devices.objects.get(id=device_id)
     elif type ==5:
         device = Heating.object.get(id=device_id)
 
@@ -42,13 +42,14 @@ def change_status(request, device_id, value, roomorhouse, type):
 
     house = device.room.house
     ip = house.ip_address
+    pintype = device.pin_type
 
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value
     en stuurt dit door via informatie ! nog oppassen want deze kan alleen smart devices aan '
     """
     #initialize()
-    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,'Input','0')
+    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,pintype,'0')
     SendInformation('%s:8080' % ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
 
@@ -72,7 +73,6 @@ def change_status(request, device_id, value, roomorhouse, type):
             'house': House.objects.get(ip_address=house.ip_address)
         }
     return TemplateResponse(request, template, context)
-
 def change_status_smart_2(device_id, value, type):
     type = int(type)
     if type == 1:
@@ -90,13 +90,15 @@ def change_status_smart_2(device_id, value, type):
 
     house = device.room.house
     ip = house.ip_address
+    pintype = device.pin_type
+
 
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value
     en stuurt dit door via informatie ! nog oppassen want deze kan alleen smart devices aan '
     """
     #initialize()
-    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,'Input','0')
+    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,pintype,'0')
     SendInformation('%s:8080' % ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
 
@@ -104,8 +106,6 @@ def change_status_smart_2(device_id, value, type):
     # database updaten
     device.status = value
     device.save()
-
-
 ## als status bij type batterij 60 of 40 is heeft dit betrekking op het geven van energie
 # en het stoppen van geven van energie
 

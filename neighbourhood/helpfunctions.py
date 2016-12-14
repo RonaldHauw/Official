@@ -28,13 +28,14 @@ def change_status_2(device_id, value, type):
 
     house = device.room.house
     ip = house.ip_address
+    pintype = device.pin_type
 
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value
     en stuurt dit door via informatie ! nog oppassen want deze kan alleen smart devices aan '
     """
     #initialize()
-    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,'Input','0')
+    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,str(pintype),'0')
     Communicatie.SendInformation('%s:8080' % ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
 
@@ -204,14 +205,17 @@ def initialize():
     for house in neigh:
         for room in house.room_set.all():
             for smart_device in room.smart_devices_set.all():
-                message = make_huge_string('Initialise',str(room),str(smart_device.ref_id),'status','000','Output',0,smart_device.pin_number)
+                pintype = smart_device.pin_type
+                message = make_huge_string('Initialise',str(room),str(smart_device.ref_id),'status','000',str(pintype),0,smart_device.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
                 smart_device.status = 000
                 smart_device.save()
                 change_status_2(smart_device.id, 000, 1)
 
             for fridge in room.fridges_set.all():
-                message = make_huge_string('Initialise', str(room), str(fridge.ref_id), 'status', '000', 'Output',
+                pintype = fridge.pin_type
+
+                message = make_huge_string('Initialise', str(room), str(fridge.ref_id), 'status', '000', str(pintype),
                                            0, fridge.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
                 fridge.status = 000
@@ -222,7 +226,9 @@ def initialize():
 
 
             for battery in room.battery_set.all():
-                message = make_huge_string('Initialise', str(room), str(battery.ref_id), 'status', '000', 'Output',
+                pintype = battery.pin_type
+
+                message = make_huge_string('Initialise', str(room), str(battery.ref_id), 'status', '000', str(pintype),
                                            0, battery.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
                 battery.status = 000
@@ -237,7 +243,8 @@ def initialize():
 
 
             for dumb_device in room.stupid_devices_set.all():
-                message = make_huge_string('Initialise', str(room), str(dumb_device.ref_id), 'status', '000', 'Output',
+                pintype = dumb_device.pin_type
+                message = make_huge_string('Initialise', str(room), str(dumb_device.ref_id), 'status', '000', str(pintype),
                                            0, dumb_device.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
                 dumb_device.status = 000
