@@ -167,6 +167,7 @@ body {
 #knop{
   margin-left: 1cm;
 }
+<<<<<<< HEAD
 #tekst{
     text-align: justify;
 }
@@ -178,4 +179,13 @@ body {
 }
 .featurette-image{
   margin-top: 15%;
+=======
+
+#lor{
+  margin-top: 4cm;
+}
+
+#paul{
+  margin-top: 3cm;
+>>>>>>> origin/master
 }
