@@ -68,6 +68,7 @@ body {
     margin-left: 0.3cm;
     margin-top: 0.3cm;
 }
+
 #laatste {
     margin-left: 0.5cm;
     margin-right: 0.5cm;
@@ -77,3 +78,12 @@ body {
     height: 100%;
 }
 
+
+#democont{
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+#tekst{
+    text-align: justify;
+}

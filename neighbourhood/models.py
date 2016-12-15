@@ -1,5 +1,10 @@
 from __future__ import unicode_literals
 from django.db import models
+from pandas import *
+import pandas as pd
+import numpy as pd
+
+from datetime import *
 
 from django.db import models
 import pandas as pd
@@ -147,7 +152,6 @@ class Smart_Devices(models.Model):
     power = models.CharField(max_length=100, default=0)
     status = models.CharField(max_length=100, default=0)
     duration = models.CharField(max_length=100, default=0)
-    deadline = models.CharField(max_length=100, default=0)
     begin_time = models.CharField(max_length=100, default=0)
     pin_number = models.CharField(max_length=100, default=0)
     pin_type = models.CharField(max_length=100, default=0)
@@ -326,7 +330,13 @@ class Energy(models.Model):
 #         return self.time + '-' + self.energy_price
 
 
+class deadlines(models.Model):
+    smart_device = models.ForeignKey(Smart_Devices)
+    timestamp = models.CharField(max_length=100, default=0)
 
+
+    def __str__(self):
+        return self.timestamp
 
 #all status
 

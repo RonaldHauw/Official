@@ -4,10 +4,49 @@ import csv
 import math
 import Communicatie
 
+
 #######################################################################
 # CSV imports voor huidige omstandigheden
 # geven vanuit het csv bestand een lijst terug met daarin ...
 #######################################################################
+
+
+def change_status_2(device_id, value, type):
+    type = int(type)
+    if type == 1:
+        device = Smart_Devices.objects.get(id=device_id)
+    elif type ==2:
+        device = Fridges.objects.get(id=device_id)
+    elif type ==3:
+        device = Battery.objects.get(id=device_id)
+    elif type ==4:
+        device = Stupid_Devices.objects.get(id=device_id)
+    elif type ==5:
+        device = Heating.object.get(id=device_id)
+
+
+
+    house = device.room.house
+    ip = house.ip_address
+    pintype = device.pin_type
+
+    """
+    verandert de opgegeven parameter van een  apparaat in de gegeven value
+    en stuurt dit door via informatie ! nog oppassen want deze kan alleen smart devices aan '
+    """
+    #initialize()
+    message = make_huge_string('change_status',device.room,device.ref_id,'status',value,str(pintype),'0')
+    Communicatie.SendInformation('%s:8080' % ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
+    # de room waarnaar het moet gaan
+
+
+    # database updaten
+    device.status = value
+    device.save()
+
+
+
+
 
 def read_prices():
     list = []
@@ -133,7 +172,6 @@ def commit_change_old(appliance_id=None, value=None):
                 'pin': pin}
     Communicatie.SendInformation('%s:8080' % house.ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
-
 def commit_change(appliance_id=None, value=None):
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value
@@ -152,7 +190,6 @@ def commit_change(appliance_id=None, value=None):
                 'pin': pin}
     Communicatie.SendInformation('%s:8080' % house.ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
-
 
 
 ##### 1 pagina, huisje aansturen met extra uitleg, tijdsklok,
@@ -199,51 +236,29 @@ def turnalloff():
                     curid = dumb_device.ref_id
                     commit_change(curid,000) ### verandering doorsturen naar huis
                     dumb_device.status = 000 ### verandering doorsturen naar database
-
-
-
-
-
-
-
-
-
-
 def getwind(time):
     list = read_windintensiteit()
     afgerondetijd = math.floor(time)  ### van 10:23 --> 10:00
     return list[time]
-
-
-
-
 def getsolar(time):
     list = read_zonneintensiteit()
     afgerondetijd = math.floor(time)  ### van 10:23 --> 10:00
     return list[time]
-
-
-
 def getprice(time):
     list = read_prices()
     afgerondetijd = math.floor(time)  ### van 10:23 --> 10:00
     return list[time]
-
 def generate_code(house,room,type,id,status):
     pass
-
 def getcurplan(device,time):
     """
     haalt uit de database de huidige planning (in procent) in functie van de tijd
 
     """
-
 def getcuruse(device):
     """
     geeft de huidige stand van het apparaat terug
     """
-
-
 def make_huge_string(functie, room, unique, status, value, soort_pin, other_value,pin = 0):
     if soort_pin  ==0:
         soort_pin = None
@@ -260,8 +275,6 @@ def make_huge_string(functie, room, unique, status, value, soort_pin, other_valu
             + 'paramnewvalue' + 'X' + str(other_value) + 'Y'\
             + 'pinnumber' + 'X' + str(pin) +'Y'\
 
-
-
 def initialize():
 
     neigh = House.objects.all()
@@ -270,24 +283,56 @@ def initialize():
     for house in neigh:
         for room in house.room_set.all():
             for smart_device in room.smart_devices_set.all():
-                message = make_huge_string('Initialise',str(room),str(smart_device.ref_id),'status','000','Output',0,smart_device.pin_number)
+                pintype = smart_device.pin_type
+                message = make_huge_string('Initialise',str(room),str(smart_device.ref_id),'status','000',str(pintype),0,smart_device.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
+                smart_device.status = 000
+                smart_device.save()
+                change_status_2(smart_device.id, 000, 1)
 
             for fridge in room.fridges_set.all():
-                message = make_huge_string('Initialise', str(room), str(fridge.ref_id), 'status', '000', 'Output',
+                pintype = fridge.pin_type
+
+                message = make_huge_string('Initialise', str(room), str(fridge.ref_id), 'status', '000', str(pintype),
                                            0, fridge.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
+                fridge.status = 000
+                fridge.save()
+                change_status_2(fridge.id, 000, 2)
+
+
+
+
             for battery in room.battery_set.all():
-                message = make_huge_string('Initialise', str(room), str(battery.ref_id), 'status', '000', 'Output',
+                pintype = battery.pin_type
+
+                message = make_huge_string('Initialise', str(room), str(battery.ref_id), 'status', '000', str(pintype),
                                            0, battery.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
+                battery.status = 000
+                battery.save()
+                change_status_2(battery.id, 000, 3)
 
 
             #for heater in room.Heating_set.all():
             #    message = make_huge_string('Initialise', str(room), str(smart_device.ref_id), 'status', '000', 'Output',
              #                              0, smart_device.pin_number)
              #   Communicatie.SendInformation('%s:8080' % house.ip_address, message)
+
+
             for dumb_device in room.stupid_devices_set.all():
-                message = make_huge_string('Initialise', str(room), str(dumb_device.ref_id), 'status', '000', 'Output',
+                pintype = dumb_device.pin_type
+                message = make_huge_string('Initialise', str(room), str(dumb_device.ref_id), 'status', '000', str(pintype),
                                            0, dumb_device.pin_number)
                 Communicatie.SendInformation('%s:8080' % house.ip_address, message)
+                dumb_device.status = 000
+                dumb_device.save()
+                change_status_2(dumb_device.id, 000, 4)
+
+
+            # for heater in room.Heating_set.all():
+            #     message = make_huge_string('Initialise', str(room), str(heater.ref_id), 'status', '000', 'Output',
+            #                                0, dumb_device.pin_number)
+            #     Communicatie.SendInformation('%s:8080' % house.ip_address, message)
+            #     heater.status = 000
+            #     heater.save()

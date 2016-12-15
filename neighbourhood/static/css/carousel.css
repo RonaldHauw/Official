@@ -82,7 +82,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 60px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -129,7 +129,7 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 0px;
   }
 }
 
@@ -167,6 +167,19 @@ body {
 #knop{
   margin-left: 1cm;
 }
+<<<<<<< HEAD
+#tekst{
+    text-align: justify;
+}
+.lead{
+  text-align: justify;
+}
+#databas{
+  width: 50%;
+}
+.featurette-image{
+  margin-top: 15%;
+=======
 
 #lor{
   margin-top: 4cm;
@@ -174,4 +187,5 @@ body {
 
 #paul{
   margin-top: 3cm;
+>>>>>>> origin/master
 }

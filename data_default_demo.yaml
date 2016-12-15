@@ -13,13 +13,15 @@
     name: Slimhuis
     ip_address: 169.254.173.25
     neighbourhood: 1
+    ref_id: 1
 
 - model: neighbourhood.house
   pk: 2
   fields:
-    name: Normaal huis
+    name: Normaalhuis
     ip_address: 169.254.86.225
     neighbourhood: 1
+    ref_id: 2
 ####################################################
 #Rooms(slim huis)
 - model: neighbourhood.room
@@ -53,7 +55,7 @@
 - model: neighbourhood.room
   pk: 5
   fields:
-    name: Slaapkamer
+    name: Garage
     ip_address: 169.254.173.25
     house: 1
 
@@ -66,36 +68,42 @@
   pk: 6
   fields:
     name: Keuken
-    ip_address: 0
+    ip_address: 169.254.86.225
     house: 2
 
 - model: neighbourhood.room
   pk: 7
   fields:
     name: Woonkamer
-    ip_address: 0
+    ip_address: 169.254.86.225
     house: 2
 
 - model: neighbourhood.room
   pk: 8
   fields:
     name: Gang
-    ip_address: 0
+    ip_address: 169.254.86.225
     house: 2
 
 - model: neighbourhood.room
   pk: 9
   fields:
     name: Badkamer
-    ip_address: 0
+    ip_address: 169.254.86.225
     house: 2
 
 - model: neighbourhood.room
   pk: 10
   fields:
-    name: Slaapkamer
-    ip_address: 0
+    name: Garage
+    ip_address: 169.254.86.225
     house: 2
+
+
+
+
+
+
 ##################################################################
 # smart devices
 
@@ -103,40 +111,40 @@
   pk: 1
   fields:
     name: Laadpaal
-    ref_id: LA
+    ref_id: 1001
     power: 1000
-    duration: 0
+    duration: 20
     begin_time: None
     status: 000
-    pin_number: 26
+    pin_number: 7
     pin_type: Output
-    room: 1
+    room: 5
 
 - model: neighbourhood.smart_devices
   pk: 2
   fields:
     name: Wasmachine
-    ref_id: 1KEWA1
+    ref_id: 1002
     power: 1000
-    duration: 0
+    duration: 5
     begin_time: None
     status: 000
-    pin_number: 0
-    pin_type: None
-    room: 1
+    pin_number: 20
+    pin_type: PWM
+    room: 4
 
 - model: neighbourhood.smart_devices
   pk: 3
   fields:
-    name: Afwasmachine
-    ref_id: 1KEWA2
-    power: 2000
+    name: Windturbine
+    ref_id: 7000
+    power: 0
     duration: 0
     begin_time: None
     status: 000
-    pin_number: 0
-    pin_type: None
-    room: 1
+    pin_number: 16
+    pin_type: PWM
+    room: 5
 
 
 
@@ -144,59 +152,44 @@
 - model: neighbourhood.smart_devices
   pk: 4
   fields:
-    name: Afwasmachine
-    ref_id: 1GAAF
+    name: Zonnepaneel
+    ref_id: 7001
     power: 1000
-    duration: 0
+    duration: 24
     begin_time: None
     status: 000
-    pin_number: 0
-    pin_type: None
-    room: 2
+    pin_number: 25
+    pin_type: Output
+    room: 5
+
+
 
 - model: neighbourhood.smart_devices
   pk: 5
   fields:
-    name: Afwasmachine
-    ref_id: 1GAAF
-    power: 1000
-    duration: 0
-    begin_time: None
-    status: 000
-    pin_number: 0
-    pin_type: None
-    room: 2
-
-- model: neighbourhood.smart_devices
-  pk: 6
-  fields:
-    name: Wasmachine
-    ref_id: 1KEWA2
+    name: Verlichting
+    ref_id: 2040
     power: 2000
     duration: 0
     begin_time: None
     status: 000
-    pin_number: 0
-    pin_type: None
+    pin_number: 3
+    pin_type: PWM
     room: 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- model: neighbourhood.smart_devices
+  pk: 6
+  fields:
+    name: Verlichting
+    ref_id: 2130
+    power: 50
+    duration: 0
+    begin_time: None
+    status: 000
+    pin_number: 6
+    pin_type: Output
+    room: 6
 
 
 
@@ -209,27 +202,27 @@
 - model: neighbourhood.heating
   pk: 1
   fields:
-    name: Verwarming slim huis
-    ref_id: 1HE
+    name: Verwarming
+    ref_id: 3001
     power: 1000
     duration: 0
     begin_time: None
     status: 0
-    pin_number: 0
-    pin_type: None
+    pin_number: 18
+    pin_type: Output
     house: 1
 
 - model: neighbourhood.heating
   pk: 2
   fields:
-    name: Verwarming normaal huis
-    ref_id: 2HE
+    name: Verwarming
+    ref_id: 3002
     power: 1000
     duration: 0
     begin_time: None
     status: 0
-    pin_number: 0
-    pin_type: None
+    pin_number: 10
+    pin_type: Output
     house: 2
 
 #################################################################
@@ -240,42 +233,31 @@
   pk: 1
   fields:
     name: Koelkast
-    ref_id: 2KEKO
+    ref_id: 2030
     power: 1000
     duration: 0
     begin_time: None
     status: 0
-    pin_number: 0
-    pin_type: None
+    pin_number: 23
+    pin_type: Output
     room: 1
 
 - model: neighbourhood.fridges
   pk: 2
   fields:
-    name: Diepvriezer
-    ref_id: 2KEDI
+    name: Koelkast
+    ref_id: 2031
     power: 1000
     duration: 0
     begin_time: None
     status: 0
-    pin_number: 0
-    pin_type: None
-    room: 1
+    pin_number: 13
+    pin_type: Output
+    room: 6
 
 #######################################################################
 
-- model: neighbourhood.battery
-  pk: 1
-  fields:
-    name: Battery
-    ref_id: 2KEBA
-    power: 1000
-    duration: 0
-    begin_time: None
-    status: 0
-    pin_number: 0
-    pin_type: None
-    room: 1
+
 
 ########################################################################
 #stupid devices
@@ -284,876 +266,42 @@
   pk: 1
   fields:
     name: Oven
-    ref_id: 1KEOV
+    ref_id: 6001
     power: 1000
-    pin_number: 0
-    pin_type: None
+    pin_number: 8
+    pin_type: Output
     room: 1
 
 
-#################################################################################
-#energy
+- model: neighbourhood.stupid_devices
+  pk: 2
+  fields:
+    name: Oven
+    ref_id: 6002
+    power: 1000
+    pin_number: 5
+    pin_type: Output
+    room: 6
 
-#- model: neighbourhood.energy
-#  pk: 1
-#  fields:
-#    time: 00:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 2
-#  fields:
-#    time: 00:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 3
-#  fields:
-#    time: 00:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 4
-#  fields:
-#    time: 00:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 5
-#  fields:
-#    time: 01:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 6
-#  fields:
-#    time: 01:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 7
-#  fields:
-#    time: 01:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 8
-#  fields:
-#    time: 01:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 9
-#  fields:
-#    time: 02:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 10
-#  fields:
-#    time: 02:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 11
-#  fields:
-#    time: 02:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 12
-#  fields:
-#    time: 02:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 13
-#  fields:
-#    time: 03:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 14
-#  fields:
-#    time: 03:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 15
-#  fields:
-#    time: 03:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 16
-#  fields:
-#    time: 03:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 17
-#  fields:
-#    time: 04:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 18
-#  fields:
-#    time: 04:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 19
-#  fields:
-#    time: 04:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 20
-#  fields:
-#    time: 04:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 21
-#  fields:
-#    time: 05:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 22
-#  fields:
-#    time: 05:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 23
-#  fields:
-#    time: 05:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 24
-#  fields:
-#    time: 05:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 25
-#  fields:
-#    time: 06:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 26
-#  fields:
-#    time: 06:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 27
-#  fields:
-#    time: 06:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 28
-#  fields:
-#    time: 06:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 29
-#  fields:
-#    time: 07:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 30
-#  fields:
-#    time: 07:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 31
-#  fields:
-#    time: 07:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 32
-#  fields:
-#    time: 07:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 33
-#  fields:
-#    time: 08:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 34
-#  fields:
-#    time: 08:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 35
-#  fields:
-#    time: 08:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 36
-#  fields:
-#    time: 08:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 37
-#  fields:
-#    time: 09:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 38
-#  fields:
-#    time: 09:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 39
-#  fields:
-#    time: 09:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 40
-#  fields:
-#    time: 09:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 41
-#  fields:
-#    time: 10:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 42
-#  fields:
-#    time: 10:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 43
-#  fields:
-#    time: 10:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 44
-#  fields:
-#    time: 10:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 45
-#  fields:
-#    time: 11:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 46
-#  fields:
-#    time: 11:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 47
-#  fields:
-#    time: 11:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 48
-#  fields:
-#    time: 11:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 49
-#  fields:
-#    time: 12:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 50
-#  fields:
-#    time: 12:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 51
-#  fields:
-#    time: 12:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 52
-#  fields:
-#    time: 12:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 53
-#  fields:
-#    time: 13:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 54
-#  fields:
-#    time: 13:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 55
-#  fields:
-#    time: 13:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 56
-#  fields:
-#    time: 13:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 57
-#  fields:
-#    time: 14:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 58
-#  fields:
-#    time: 14:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 59
-#  fields:
-#    time: 14:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 60
-#  fields:
-#    time: 14:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 61
-#  fields:
-#    time: 15:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 62
-#  fields:
-#    time: 15:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 63
-#  fields:
-#    time: 15:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 64
-#  fields:
-#    time: 15:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 65
-#  fields:
-#    time: 16:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 66
-#  fields:
-#    time: 16:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 67
-#  fields:
-#    time: 16:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 68
-#  fields:
-#    time: 16:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 69
-#  fields:
-#    time: 17:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 70
-#  fields:
-#    time: 17:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 71
-#  fields:
-#    time: 17:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 72
-#  fields:
-#    time: 17:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 73
-#  fields:
-#    time: 18:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 74
-#  fields:
-#    time: 18:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 75
-#  fields:
-#    time: 18:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 76
-#  fields:
-#    time: 18:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 77
-#  fields:
-#    time: 19:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 78
-#  fields:
-#    time: 19:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 79
-#  fields:
-#    time: 19:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 80
-#  fields:
-#    time: 19:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 81
-#  fields:
-#    time: 20:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 82
-#  fields:
-#    time: 20:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 83
-#  fields:
-#    time: 20:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 84
-#  fields:
-#    time: 20:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 85
-#  fields:
-#    time: 21:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 86
-#  fields:
-#    time: 21:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 87
-#  fields:
-#    time: 21:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 88
-#  fields:
-#    time: 21:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 89
-#  fields:
-#    time: 22:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 90
-#  fields:
-#    time: 22:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 91
-#  fields:
-#    time: 22:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 92
-#  fields:
-#    time: 22:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 93
-#  fields:
-#    time: 23:00
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 94
-#  fields:
-#    time: 23:15
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 95
-#  fields:
-#    time: 23:30
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
-#
-#- model: neighbourhood.energy
-#  pk: 96
-#  fields:
-#    time: 23:45
-#    energy_price: None
-#    used_energy: None
-#    temperature: 0
-#    solar_power: 0
+#################################################################################
+
+
+# Deadlines
+
+- model: neighbourhood.deadlines
+  pk: 1
+  fields:
+    smart_device: 1
+    timestamp: 23
+
+- model: neighbourhood.deadlines
+  pk: 2
+  fields:
+    smart_device: 1
+    timestamp: 40
+
+- model: neighbourhood.deadlines
+  pk: 3
+  fields:
+    smart_device: 2
+    timestamp: 23
