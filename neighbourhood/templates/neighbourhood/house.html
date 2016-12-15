@@ -191,16 +191,28 @@ $(document).ready(function() {
 
 <!--  Deel dat de knoppen zal schrijven -->
 {% block showalldevices %}
+
+
+
+
+    {% for heat in house.heating_set.all %}
+        <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
+    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
+    <h5 id="vspace">{{ heat.name }} - {{ heat.status }}%</h5>
+    {% if heat.name == "Verwarming" %}
+        <img id="afbeelding"  src='{% static 'images/devices/thermos.jpg' %}' alt="Wasmachine">
+    {% endif %}
+ <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" heat.id 100 0 1 %}">Zet aan</button>
+   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' heat.id 000 0 1 %}">Zet uit</button>
+    </div>
+    </div>
+    {% endfor %}
     <meta http-equiv="refresh" content="30" >
     {% for room in house.room_set.all %}
 
 
-        <h3 onclick=location.href="{% url "initialise" %}">Apparaten in {{ room.name }}</h3>
-        <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
-        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
-<h4>Slimme Apparaten</h4>
-        </div>
-        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+        <h3 onclick=location.href="{% url "initialise" %}"><!--Apparaten in {{ room.name }}--></h3>
+<!--<h4>Slimme Apparaten</h4>-->
 {% for device in room.smart_devices_set.all %}
     <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
     <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
@@ -217,13 +229,17 @@ $(document).ready(function() {
  {% if device.name == "Laadpaal" %}
         <img id="afbeelding"  src='{% static 'images/devices/laadpaal.jpg' %}' alt="Laadpaal">
     {% endif %}
+    {% if device.name == "Windturbine" %}
+        <img id="afbeelding"  src='{% static 'images/devices/wind.jpg' %}' alt="Laadpaal">
+    {% endif %}
+    {% if device.name == "Zonnepaneel" %}
+        <img id="afbeelding"  src='{% static 'images/devices/zonnepaneel.jpg' %}' alt="Laadpaal">
+    {% endif %}
  <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 1 %}">Zet aan</button>
    <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 1 %}">Zet uit</button>
     </div>
     </div>
 {% endfor %}
-        </div>
-        </div>
 
 
 
@@ -235,11 +251,7 @@ $(document).ready(function() {
 
 
 
-        <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
-        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
-<h4>Koelkasten</h4>
-        </div>
-        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+<!--<h4>Koelkasten</h4>-->
 {% for device in room.fridges_set.all %}
     <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
     <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
@@ -255,8 +267,6 @@ $(document).ready(function() {
     </div>
     </div>
 {% endfor %}
-        </div>
-        </div>
 
 
 
@@ -266,11 +276,7 @@ $(document).ready(function() {
 
 
 
-        <div id="blockcontainer"class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
-        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
-<h4>Energieopslag</h4>
-        </div>
-        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+<!--<h4>Energieopslag</h4>-->
 {% for device in room.battery_set.all %}
     <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
     <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
@@ -289,18 +295,12 @@ $(document).ready(function() {
     </div>
     </div>
 {% endfor %}
-        </div>
-        </div>
 
 
 
 
 
-        <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
-        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
-<h4>Klassieke apparaten</h4>
-        </div>
-        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
+<!--<h4>Klassieke apparaten</h4>-->
 {% for device in room.stupid_devices_set.all %}
     <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
     <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
@@ -313,29 +313,9 @@ $(document).ready(function() {
     </div>
     </div>
 {% endfor %}
-        </div>
-        </div>
 
 
-               <div id="blockcontainer" class="container"> <!-- OM problemen met opvolgen van verschillende soorten te vermijden-->
-        <div class="container"> <!-- omdat er anders problemen waren doordat deze een margin bottom had -->
-<h4>Verwarming</h4>
-        </div>
-        <div class="row-offcanvas"><!-- block met daarin alle apparaten in een kamer -->
-{% for device in room.Heating_set.all %}
-    <div class="col-lg-3"> <!-- we stoppen elk apparaat in een apparte kolom-->
-    <div id="container1"> <!-- hokje voor elk apparaat met foto en knoppen-->
-    <h5 id="vspace">{{ device.name }}</h5>
-    {% if device.name == "Verwarming slim huis" %}
-        <img id="afbeelding"  src='{% static 'images/devices/thermos.jpg' %}' alt="Thermosstaat">
-        {% endif %}
- <button id="knop" type="button"  class="btn btn-sm btn-success" onclick=location.href="{% url "status" device.id 100 0 5 %}">Zet aan</button>
-   <button id="knop" type="button" class="btn btn-sm btn-danger" onclick=location.href="{% url 'status' device.id 000 0 5 %}">Zet uit</button>
-    </div>
-    </div>
-{% endfor %}
-        </div>
-        </div>
+
 
 
 {% endfor %}

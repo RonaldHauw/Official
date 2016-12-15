@@ -13,6 +13,7 @@
     name: Slimhuis
     ip_address: 169.254.173.25
     neighbourhood: 1
+    ref_id: 1
 
 - model: neighbourhood.house
   pk: 2
@@ -20,6 +21,7 @@
     name: Normaalhuis
     ip_address: 169.254.86.225
     neighbourhood: 1
+    ref_id: 2
 ####################################################
 #Rooms(slim huis)
 - model: neighbourhood.room
@@ -124,12 +126,12 @@
     name: Wasmachine
     ref_id: 1002
     power: 1000
-    duration: 40
+    duration: 5
     begin_time: None
     status: 000
     pin_number: 20
     pin_type: PWM
-    room: 2
+    room: 4
 
 - model: neighbourhood.smart_devices
   pk: 3
@@ -153,7 +155,7 @@
     name: Zonnepaneel
     ref_id: 7001
     power: 1000
-    duration: 0
+    duration: 24
     begin_time: None
     status: 000
     pin_number: 25
