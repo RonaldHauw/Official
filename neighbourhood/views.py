@@ -2,6 +2,7 @@ from django.http import HttpResponse, JsonResponse
 from django.template import loader
 from models import *
 from django.shortcuts import render
+import json
 
 from django.template.response import TemplateResponse
 
@@ -70,46 +71,189 @@ def handmatig(request):
     template = loader.get_template('Handmatig.html')
     return HttpResponse(template.render(request))
 
-def getchartdata(request,house_id):
+
+
+def getchartdata(request, house_id):
     house = House.objects.get(id=house_id)
-    #values = house.get_total_energy()
-    data = dict()
-    data['timeseries'] = {
-                "x": "2013-02-08 09:30",
-                "y": 0
-            }, {
-                "x": "2013-02-08 09:45"  ,
-                "y": 5
-            }, {
-                "x": "2013-02-08 10:00"  ,
-                "y": 10
-            }, {
-                "x": "2013-02-08 10:15"  ,
-                "y": 7
-            }
+
+    df_energy = house.get_total_energy()  # Dataframe
+    print df_energy.head(100)
+    data = dict()  # data = {}
+    data["timeseries"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy.index:
+        #print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy.ix[idx,"Energieverbruik"]}
+        data["timeseries"].append(v_dict)
+        #print json.dumps(data)
     return JsonResponse(data)
 
 
-def getallcosts(request,house_id):
-    house = House.objects.get(id=house_id)
-    #values = house.get_total_energy()
-    data = dict()
-    data['timeseries'] = {
-                "x": "2013-02-08 09:33",
-                "y": 3
-            }, {
-                "x": "2013-02-08 09:45"  ,
-                "y": 7
-            }, {
-                "x": "2013-02-08 09:51"  ,
-                "y": 10
-            }, {
-                "x": "2013-02-08 10:55"  ,
-                "y": 5
-            }
+
+def getchartdata_room(request, room_id):
+    room = Room.objects.get(id=room_id)
+
+    df_energy = room.get_total_energy()  # Dataframe
+    print df_energy.head(100)
+    data = dict()  # data = {}
+    data["timeseries"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy.index:
+        #print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy.ix[idx,"Energieverbruik"]}
+        data["timeseries"].append(v_dict)
+        #print json.dumps(data)
     return JsonResponse(data)
 
+def chartdata_comparison(request, house_id_1, house_id_2):
+    house1 = House.objects.get(id=house_id_1)
+    house2 = House.objects.get(id=house_id_2)
+
+    df_energy1 = house1.get_total_energy()  # Dataframe
+    df_energy2 = house2.get_total_energy()  # Dataframe
+    data = dict()  # data = {}
+    data["first_house"] = []  # data = {"timeseries": []}
+    data["second_house"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy1.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy1.ix[idx, "Energieverbruik"]}
+        data["first_house"].append(v_dict)
+
+    for idx in df_energy2.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy2.ix[idx, "Energieverbruik"]}
+        data["second_house"].append(v_dict)
+        # print json.dumps(data)
+    return JsonResponse(data)
+
+def chartdata_comparisonprice(request, house_id_1, house_id_2):
+    house1 = House.objects.get(id=house_id_1)
+    house2 = House.objects.get(id=house_id_2)
+
+    df_energy1 = house1.get_total_price()  # Dataframe
+    df_energy2 = house2.get_total_price()  # Dataframe
+    data = dict()  # data = {}
+    data["first_house"] = []  # data = {"timeseries": []}
+    data["second_house"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy1.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy1.ix[idx, "Price"]}
+        data["first_house"].append(v_dict)
+
+    for idx in df_energy2.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy2.ix[idx, "Price"]}
+        data["second_house"].append(v_dict)
+        # print json.dumps(data)
+    return JsonResponse(data)
+
+
+# def getchartdata(request,house_id):
+#     house = House.objects.get(id=house_id)
+#     #values = house.get_total_energy()
+#     data = dict()
+#     data['timeseries'] = {
+#                 "x": "2013-02-08 09:30",
+#                 "y": 0
+#             }, {
+#                 "x": "2013-02-08 09:45"  ,
+#                 "y": 5
+#             }, {
+#                 "x": "2013-02-08 10:00"  ,
+#                 "y": 10
+#             }, {
+#                 "x": "2013-02-08 10:15"  ,
+#                 "y": 7
+#             }
+#     return JsonResponse(data)
+#
+#
+# def getallcosts(request,house_id):
+#     house = House.objects.get(id=house_id)
+#     #values = house.get_total_energy()
+#     data = dict()
+#     data['timeseries'] = {
+#                 "x": "2013-02-08 09:33",
+#                 "y": 3
+#             }, {
+#                 "x": "2013-02-08 09:45"  ,
+#                 "y": 7
+#             }, {
+#                 "x": "2013-02-08 09:51"  ,
+#                 "y": 10
+#             }, {
+#                 "x": "2013-02-08 10:55"  ,
+#                 "y": 5
+#             }
+#     return JsonResponse(data)
+#
 
 def vergelijking(request):
     template = loader.get_template('neighbourhood/vergelijking.html')
     return HttpResponse(template.render(request))
+
+
+def gettotalprice(request,house_id):
+
+    house = House.objects.get(id=house_id)
+
+    df_energy = house.get_total_price()  # Dataframe
+    print df_energy.head(5)
+
+    data = dict()  # data = {}
+    data["timeseries"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy.ix[idx, "Price"]}
+        data["timeseries"].append(v_dict)
+        # print json.dumps(data)
+    return JsonResponse(data)
+
+
+def gettotalonlyprice(request,house_id):
+
+    house = House.objects.get(id=house_id)
+    df_energy = house.get_total_onlyprice()  # Dataframe
+    print df_energy.head(5)
+
+    data = dict()  # data = {}
+    data["timeseries"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy.ix[idx, "Price"]}
+        data["timeseries"].append(v_dict)
+        # print json.dumps(data)
+    return JsonResponse(data)
+
+def chartdata_comparisononlyprice(request, house_id_1, house_id_2):
+    house1 = House.objects.get(id=house_id_1)
+    house2 = House.objects.get(id=house_id_2)
+
+    df_energy1 = house1.get_total_onlyprice()  # Dataframe
+    df_energy2 = house2.get_total_onlyprice() # Dataframe
+    data = dict()  # data = {}
+    data["first_house"] = []  # data = {"timeseries": []}
+    data["second_house"] = []  # data = {"timeseries": []}
+    print json.dumps(data)
+
+    for idx in df_energy1.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy1.ix[idx, "Price"]}
+        data["first_house"].append(v_dict)
+
+    for idx in df_energy2.index:
+        # print idx  # The index of the row => Tijdstap
+        v_dict = {"x": datetime.strftime(idx, "%Y-%m-%d %H:%M"), "y": df_energy2.ix[idx, "Price"]}
+        data["second_house"].append(v_dict)
+        # print json.dumps(data)
+    return JsonResponse(data)

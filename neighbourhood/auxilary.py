@@ -1,10 +1,4 @@
 from django.shortcuts import render
-
-
-
-
-
-
 # Create your views here.
 from django.http import HttpResponse
 from django.template import loader
@@ -13,7 +7,7 @@ from helpfunctions import *
 from Communicatie import *
 import time
 import timeit
-from neighbourhood.models import Smart_Devices
+from neighbourhood.models import *
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.template.response import TemplateResponse
@@ -144,12 +138,12 @@ def test(request):
 #     template = loader.get_template('testinterface.html')
 #     return HttpResponse(template.render(request))
 
-def update_clock(curtime):
-    hour,minute = maketim()
-    html ="""
-    <html>
-    <
-    """
+# def update_clock(curtime):
+#     hour,minute = maketim()
+#     html ="""
+#     <html>
+#     <
+#     """
 
 tijd_hele_dag = 240
 def centralcontrol(request):
@@ -252,21 +246,21 @@ def centralcontrol(request):
         #### !!!!!! Dit programma gaat gewoon kijken naar het resultaat van de optimalistatie en in functie van de tijd
         ###         De status van de betrokken apparaten aanpassen
 
-def givebattery(request, device_id, value):
-    device = Smart_Device.object.get(id=device_id)
-    house = device.room.house
-    ip = house.ip_address
-
-    """
-    verandert de opgegeven parameter van een  apparaat in de gegeven value
-    en stuurt dit door via informatie
-    """
-
-    message = make_huge_string('change_battery_appliance', device.room, device.ref_id, 'status', value, 'Input', '0')
-    SendInformation('%s:8080' % house_ip,
-                    message)  # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
-    # de room waarnaar het moet gaan
-
+# def givebattery(request, device_id, value):
+#     device = Smart_Device.object.get(id=device_id)
+#     house = device.room.house
+#     ip = house.ip_address
+#
+#     """
+#     verandert de opgegeven parameter van een  apparaat in de gegeven value
+#     en stuurt dit door via informatie
+#     """
+#
+#     message = make_huge_string('change_battery_appliance', device.room, device.ref_id, 'status', value, 'Input', '0')
+#     SendInformation('%s:8080' % house_ip,
+#                     message)  # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
+#     # de room waarnaar het moet gaan
+#
 
 def time_tijd_hele_dag_naar_24(curtime):
     fractie = curtime / tijd_hele_dag

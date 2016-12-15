@@ -4,9 +4,6 @@
   opacity: 0.0;
 }
 
-
-
-
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -71,3 +68,12 @@ body {
     margin-left: 0.3cm;
     margin-top: 0.3cm;
 }
+#laatste {
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+#probeersel{
+    width:inherit;
+    height: 100%;
+}
+

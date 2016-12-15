@@ -1,9 +1,318 @@
 {% extends "neighbourhood/usertemplate.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Slimme-energie woning vs. klassieke woning</title>
-</head>
-<body>
+{% block topheader_content %}
 
-</body>
+        <p>Op deze pagina komt u alles te weten over de voordelen van slimme-energiewoningen en het
+            verschil voor uw energieverbruik.  &nbsp; &nbsp;
+        Er wordt gestreefd om zuiniger en meer bewust met energie om te gaan.</p>
+
+
+{% endblock %}
+
+     {% block left_col %}
+        <div id="laatste">
+       <canvas id="comparison_energy" height="350", width="500"></canvas>
+        </div>
+          {% endblock %}
+
+  {% block middle_col %}
+        <div id="laatste">
+       <canvas id="comparison_price" height="350", width="500"></canvas>
+        </div>
+          {% endblock %}
+
+  {% block right_col %}
+        <div id="laatste">
+       <canvas id="comparison_onlyprice" height="350", width="500"></canvas>
+        </div>
+          {% endblock %}
+{%  block custom_js %}
+
+  <script>
+      var max_energy = 0;
+      var steps_energy = 10;
+      var chartData_energy = {}
+
+  function respondCanvas_energy() {
+    var c = $('#comparison_energy');
+    var ctx = c.get(0).getContext("2d");
+    var container = c.parent();
+
+    var $container = $(container);
+
+    c.attr('width', $container.width()); //max width
+
+    c.attr('height', $container.height()); //max height
+
+    //Call a function to redraw other content (texts, images etc)
+    var chart = new Chart(c, {
+        type: 'line',
+        data: chartData_energy,
+        options: {
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    position: 'left'
+                }],
+                xAxes: [{
+                    type: 'time',
+                    time: {
+                        unit: 'hour'
+
+                    },
+                    position: 'bottom'
+                }]
+            },
+            title: {
+                display: true,
+                text: 'Vergelijking van het energieverbruik per uur in Watt',
+                fontSize: 16
+
+            },
+            yAxis: {
+                display: true,
+                text: 'TEST: Energieverbruik in Watt'
+            }
+
+        }
+
+    });
+    }
+
+var GetChartData_energy = function () {
+    $.ajax({
+        url: '{%  url 'chartdata_comparison' 1 2 %}',
+        method: 'GET',
+        dataType: 'json',
+        success: function (d) {
+           chartData_energy = {
+                //labels: d.AxisLabels,
+                datasets: [
+                    {   label: 'Slimme-energiewoning',
+                        yAxis: {
+                            title: {text: 'TEST: Energieverbruik in Watt'}
+
+            },
+                        backgroundColor: "rgba(75,192,192,0.4)",
+                        borderColor: "rgba(75,192,192,1)",
+                        fillColor: "rgba(220,220,220,0.5)",
+                        strokeColor: "rgba(220,220,220,1)",
+                        pointColor: "rgba(220,220,220,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.first_house
+                    },
+                    {   label: 'Normaal huis',
+                        backgroundColor: "rgba(200,192,10,0.4)",
+                        borderColor: "rgba(200,192,10,1)",
+                        fillColor: "rgba(220,220,220,0.5)",
+                        strokeColor: "rgba(220,220,220,1)",
+                        pointColor: "rgba(220,220,220,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.second_house
+                    }
+                ],
+               yAxes: "test"
+            };
+
+            max_energy = Math.max.apply(Math, d.first_house);
+            steps_energy = 10;
+
+            respondCanvas_energy();
+        }
+    });
+};
+
+var max_price = 0;
+      var steps_price = 10;
+      var chartData_price  = {}
+
+  function respondCanvas_price () {
+    var c = $('#comparison_price');
+    var ctx = c.get(0).getContext("2d");
+    var container = c.parent();
+
+    var $container = $(container);
+
+    c.attr('width', $container.width()); //max width
+
+    c.attr('height', $container.height()); //max height
+
+    //Call a function to redraw other content (texts, images etc)
+    var chart = new Chart(c, {
+        type: 'line',
+        data: chartData_price ,
+        options: {
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    position: 'left'
+                }],
+                xAxes: [{
+                    type: 'time',
+                    time: {
+                        unit: 'hour'
+                    },
+                    position: 'bottom'
+                }]
+            },
+            title: {
+                display: true,
+                text: 'Vergelijking van het verschil in kosten aan energie per uur',
+                fontSize: 16
+            },
+            yAxis: {
+                display: true,
+                text: 'TEST: prijs'
+            }
+
+        }
+
+    });
+    }
+
+var GetChartData_price  = function () {
+    $.ajax({
+        url: '{%  url 'chartdata_comparisonprice' 1 2 %}',
+        method: 'GET',
+        dataType: 'json',
+        success: function (d) {
+           chartData_price  = {
+                //labels: d.AxisLabels,
+                datasets: [
+                    {   label: 'Slimme-energiewoning',
+                        yAxis: {
+                            title: {text: 'TEST: prijs in Watt'}
+
+            },
+                        backgroundColor: "rgba(255,99,132,0.4)",
+                        borderColor: "rgba(255,99,132,1)",
+                        fillColor: "rgba(255,99,132,0.5))",
+                        strokeColor: "rgba(255,99,132,1)",
+                        pointColor: "rgba(220,220,220,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.first_house
+                    },
+                    {   label: 'Normaal huis',
+                        backgroundColor: "rgba(255, 159, 64, 0.4)",
+                        borderColor: "rgba(255, 159, 64, 1)",
+                        fillColor: "rgba(255, 159, 64, 0.5)",
+                        strokeColor: "rgba(255, 159, 64, 1)",
+                        pointColor: "rgba(220,220,220,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.second_house
+                    }
+                ],
+               yAxes: "test"
+            };
+
+            max__price  = Math.max.apply(Math, d.first_house);
+            steps_price  = 10;
+
+            respondCanvas_price ();
+        }
+    });
+};
+
+
+var max_onlyprice = 0;
+      var steps_onlyprice = 10;
+      var chartData_onlyprice  = {}
+
+  function respondCanvas_onlyprice () {
+    var c = $('#comparison_onlyprice');
+    var ctx = c.get(0).getContext("2d");
+    var container = c.parent();
+
+    var $container = $(container);
+
+    c.attr('width', $container.width()); //max width
+
+    c.attr('height', $container.height()); //max height
+
+    //Call a function to redraw other content (texts, images etc)
+    var chart = new Chart(c, {
+        type: 'line',
+        data: chartData_onlyprice ,
+        options: {
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    position: 'left',
+                     ticks: {
+                                    beginAtZero: true
+                                        },
+                }],
+                xAxes: [{
+                    type: 'time',
+                    time: {
+                    displayFormats: {
+                        quarter: 'hh:mm'
+                    },
+                    position: 'bottom',
+
+                }}]
+            },
+            title: {
+                display: true,
+                text: 'Vergelijking van de prijs in euro/kwh',
+                fontSize: 16
+            },
+            yAxis: {
+                display: true,
+                text: 'TEST: prijs'
+            }
+
+        }
+
+    });
+    }
+
+var GetChartData_onlyprice  = function () {
+    $.ajax({
+        url: '{%  url 'chartdata_comparisononlyprice' 1 2 %}',
+        method: 'GET',
+        dataType: 'json',
+        success: function (d) {
+           chartData_onlyprice  = {
+                //labels: d.AxisLabels,
+                datasets: [
+                    {   label: 'Slimme-energiewoning en normaal huis',
+                        yAxis: {
+                            title: {text: 'TEST: prijs in Watt'}
+
+            },
+                        //backgroundColor: "rgba(255,99,132,0.4)",
+                        fill: false,
+                        borderColor: "rgba(255,99,132,1)",
+                        fillColor: "rgba(255,99,132,0.5))",
+                        strokeColor: "rgba(255,99,132,1)",
+                        pointColor: "rgba(220,220,220,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.first_house
+                    },
+
+                ],
+               yAxes: "test"
+            };
+
+            max_onlyprice  = Math.max.apply(Math, d.first_house);
+            steps_onlyprice  = 10;
+
+            respondCanvas_onlyprice ();
+        }
+    });
+};
+
+
+
+$(document).ready(function() {
+    $(window).resize(respondCanvas_energy);
+    $(window).resize(respondCanvas_price);
+ $(window).resize(respondCanvas_onlyprice);
+    GetChartData_energy();
+     GetChartData_price();
+     GetChartData_onlyprice()
+
+});
+  </script>
+{%  endblock %}

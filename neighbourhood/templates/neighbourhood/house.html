@@ -8,105 +8,53 @@
 {% block topheader_content %}
     Mijn kamers zijn:
     <ul>
-
-
 {#    <li> <a href="/neighbourhood/models"> models</a></li>#}
         {% for room in house.room_set.all %}
 {#    {% for room in House.objects.all %}#}
    <li><a href="{% url "Room" room.id %}">{{ room.name }}</a></li>
 {#            <h3> {{ room.name }}</h3>#}
     {% endfor %}
-
     </ul>
 {% endblock %}
 
 
 {% block left_col %}
+   <div id="probeersel">
+        <h2> Energieverbruik per uur voor het {{ house.name}} </h2>
 
-<div class="col-md-4">
-  <h2>Energieverbruik</h2>
-  <canvas id="energy_house" width="400" height="400"></canvas>
-</div>
+    <canvas id="secondPlot" width="500" height="250" ></canvas>
+    </div>
 
-    <script>
-var ctx = document.getElementById("energy_house");
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
-    }
-});
-
-    </script>
 {% endblock %}
-
-
-
 
 {% block middle_col %}
 
-    <div class="col-md-4">
-        <h2> Kosten per kwartier </h2>
-
-    <canvas id="secondPlot" width="200" height="200" ></canvas>
+    <div id="probeersel">
+            <h2>Prijs aan energie in euro/kwh  voor het {{ house.name}} </h2>
+    <canvas id="onlyprijsverbruik" width="500" height="200"></canvas>
     </div>
 
+
 {% endblock %}
-
-
-
 
 {% block right_col %}
-    <div class="col-md-4">
-        <h2>Totale kostprijs</h2>
-        <p>Hier komen twee counters die vertelen hoeveel men door een geoptimaliseerd energiegebruik kan besparen en hoeveel de totale kosten zijn.  </p>
-        <h2>Bekijk het dagverloop</h2>
+    <div id="probeersel">
 
+          <h2>Kosten aan energie per uur voor het {{ house.name}} </h2>
+  <canvas id="prijsverbruik" width="500" height="300"></canvas>
+</div>
 
-            <p><a class="btn btn-default" onclick=location.href="{% url "start" %}" role="button">Start een dag&raquo;</a></p>
-
-
-    </div>
 {% endblock %}
+
 
 {%  block custom_js %}
 
   <script>
-      var max = 0;
-    var steps = 10;
-    var chartData = {}
+      var max_energy = 0;
+      var steps_energy = 10;
+      var chartData_energy = {}
 
-function respondCanvas() {
+function respondCanvasEnergy() {
     var c = $('#secondPlot');
     var ctx = c.get(0).getContext("2d");
     var container = c.parent();
@@ -120,7 +68,7 @@ function respondCanvas() {
     //Call a function to redraw other content (texts, images etc)
     var chart = new Chart(c, {
         type: 'line',
-        data: chartData,
+        data: chartData_energy,
         options: {
             scales: {
                 yAxes: [{
@@ -137,24 +85,24 @@ function respondCanvas() {
                     position: 'bottom'
                 }]
             },
-            title: {
-                display: true,
-                text: 'Energieverbruik per kwartier'
-            }
+{#            title: {#}
+{#                display: true,#}
+{#                text: 'Energieverbruik in Watt per uur'#}
+{#            }#}
         }
     });
     }
 
-var GetChartData = function () {
+var GetChartDataEnergy = function () {
     $.ajax({
         url: '{%  url 'Chartdata' house.id %}',
         method: 'GET',
         dataType: 'json',
         success: function (d) {
-           chartData = {
+           chartData_energy = {
                 //labels: d.AxisLabels,
                 datasets: [
-                    {   label: 'verbruik',
+                    {   label: 'Energieverbruik in Watt',
                         backgroundColor: "rgba(75,192,192,0.4)",
                         borderColor: "rgba(75,192,192,1)",
                         fillColor: "rgba(220,220,220,0.5)",
@@ -166,32 +114,181 @@ var GetChartData = function () {
                 ]
             };
 
-            max = Math.max.apply(Math, d.timeseries);
-            steps = 10;
+            max_energy = Math.max.apply(Math, d.timeseries);
+            steps_energy = 10;
 
-            respondCanvas();
+            respondCanvasEnergy();
+        }
+    });
+};
+
+      var max_price = 0;
+      var steps_price = 10;
+      var chartData_price = {}
+
+function respondCanvasPrice() {
+    var c = $('#prijsverbruik');
+    var ctx = c.get(0).getContext("2d");
+    var container = c.parent();
+
+    var $container = $(container);
+
+    c.attr('width', $container.width()); //max width
+
+    c.attr('height', $container.height()); //max height
+
+    //Call a function to redraw other content (texts, images etc)
+    var chart = new Chart(c, {
+        type: 'line',
+        data: chartData_price,
+        options: {
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    position: 'left'
+                }],
+                xAxes: [{
+                    type: 'time',
+                    time: {
+                        unit: 'hour'
+
+                    },
+                    position: 'bottom'
+                }]
+            },
+{#            title: {#}
+{#                display: true,#}
+{#                text: 'Kosten aan energie per uur'#}
+{#            }#}
+        }
+    });
+    }
+
+var GetChartDataPrice = function () {
+    $.ajax({
+        url: '{%  url 'gettotalprice' house.id %}',
+        method: 'GET',
+        dataType: 'json',
+        success: function (d) {
+           chartData_price = {
+                //labels: d.AxisLabels,
+                datasets: [
+                    {   label: 'Kosten in euro',
+                        backgroundColor: "rgba(255,99,132,0.4)",
+                        borderColor: "rgba(255,99,132,1)",
+                        fillColor: "rgba(255,99,132,0.5)",
+                        strokeColor: "rgba(255,99,132,1))",
+                        pointColor: "rgba(255,99,132,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.timeseries
+                    }
+                ]
+            };
+
+            max_price = Math.max.apply(Math, d.timeseries);
+            steps_price = 10;
+
+            respondCanvasPrice();
+        }
+    });
+};
+      var max_onlyprice = 0;
+      var steps_onlyprice = 10;
+      var chartData_onlyprice = {}
+
+function respondCanvasonlyprice() {
+    var c = $('#onlyprijsverbruik');
+    var ctx = c.get(0).getContext("2d");
+    var container = c.parent();
+
+    var $container = $(container);
+
+    c.attr('width', $container.width()); //max width
+
+    c.attr('height', $container.height()); //max height
+
+    //Call a function to redraw other content (texts, images etc)
+    var chart = new Chart(c, {
+        type: 'line',
+        data: chartData_onlyprice,
+        options: {
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    position: 'left',
+                                ticks: {
+                                    beginAtZero: true
+                                        }}],
+                xAxes: [{
+                    type: 'time',
+                    time: {
+                        unit: 'hour'
+
+                    },
+                    position: 'bottom'
+                }]
+            },
+{#            title: {#}
+{#                display: true,#}
+{#                text: 'Kosten aan energie per uur'#}
+{#            }#}
+        }
+    });
+    }
+
+var GetChartDataonlyprice = function () {
+    $.ajax({
+        url: '{%  url 'gettotalonlyprice' house.id %}',
+        method: 'GET',
+        dataType: 'json',
+        success: function (d) {
+           chartData_onlyprice = {
+                //labels: d.AxisLabels,
+                datasets: [
+                    {   label: 'Prijs in euro/kwh',
+                      //  backgroundColor: "rgba(255,99,132,0.4)",
+                        borderColor: "rgba(255,99,132,1)",
+                       // fillColor: "rgba(255,99,132,0.5)",
+                      //  strokeColor: "rgba(255,99,132,1))",
+                        fill: false,
+                        pointColor: "rgba(255,99,132,1)",
+                        pointStrokeColor: "#fff",
+                        data: d.timeseries
+                    }
+                ]
+            };
+
+            max_onlyprice= Math.max.apply(Math, d.timeseries);
+            steps_onlyprice = 10;
+
+            respondCanvasonlyprice();
         }
     });
 };
 
 $(document).ready(function() {
-    $(window).resize(respondCanvas);
+    $(window).resize(respondCanvasEnergy);
+    $(window).resize(respondCanvasPrice);
+     $(window).resize(respondCanvasonlyprice);
 
-    GetChartData();
+    GetChartDataEnergy();
+    GetChartDataPrice();
+    GetChartDataonlyprice();
+
 });
 
 
+
+
 </script>
-{%  endblock %}
 
-
-
+{% endblock %}
 
 
 
 <!--  Deel dat de knoppen zal schrijven -->
 {% block showalldevices %}
-    <meta http-equiv="refresh" content="1" >
+{#    <meta http-equiv="refresh" content="10" >#}
     {% for room in house.room_set.all %}
 
 

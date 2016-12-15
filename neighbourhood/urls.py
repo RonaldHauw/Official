@@ -7,6 +7,13 @@ import auxilary
 urlpatterns = [
     url(r'^House/(?P<house_id>[0-9]+)$',views.house, name='House'),
     url(r'^House/(?P<house_id>[0-9]+)/chart_data_energy$',views.getchartdata,name='Chartdata'),
+    url(r'^House/(?P<house_id>[0-9]+)/chart_data_energy_price$', views.gettotalprice, name='gettotalprice'),
+    url(r'^House/(?P<house_id>[0-9]+)/chart_data_energy_onlyprice$', views.gettotalonlyprice, name='gettotalonlyprice'),
+    url(r'^Room/(?P<room_id>[0-9]+)/chart_data_energy$',views.getchartdata_room,name='Chartdata_room'),
+    url(r'^chart_data_energy/(?P<house_id_1>[0-9]+)/(?P<house_id_2>[0-9]+)$',views.chartdata_comparison,name='chartdata_comparison'),
+    url(r'^chart_data_energy_price/(?P<house_id_1>[0-9]+)/(?P<house_id_2>[0-9]+)$', views.chartdata_comparisonprice, name='chartdata_comparisonprice'),
+    url(r'^chart_data_energy_onlyprice/(?P<house_id_1>[0-9]+)/(?P<house_id_2>[0-9]+)$',
+        views.chartdata_comparisononlyprice, name='chartdata_comparisononlyprice'),
     url(r'^room/(?P<id>[0-9]+)$',views.room, name='Room'),
     url(r'^$',views.indexneighbourhood, name='IndexNeighbourhood'),
     url(r'^CentralControl',views.indexcentralcontrol,name="ToCentralControl"),
@@ -19,7 +26,6 @@ urlpatterns = [
     url(r'^start', auxilary.centralcontrol, name='start'),
     url(r'^optimalisated',views.vergelijking, name = 'vergelijking'),
     url(r'^TEST',auxilary.test, name = 'TEST'),
-
 
 ]
 

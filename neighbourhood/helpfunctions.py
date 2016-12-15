@@ -33,8 +33,86 @@ def read_windintensiteit():
             list.append(row[1])
     return list
 
+import os
+def lees_basisconsumptie_slim_huis():
+    list = []
+    #basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        rows = [row for row in data]
+        for row in rows[1:]:
+            list.append(row[0])
+    list = totaal_per_uur(list)
+    return list
 
+def lees_totaal_verbruik_dom_huis():
+    list = []
+    #basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        rows = [row for row in data]
+        for row in rows[1:]:
+            list.append(row[1])
+    list = totaal_per_uur(list)
+    return list
 
+def lees_prijs_elektriciteit():
+    list = []
+    #basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        rows = [row for row in data]
+        for row in rows[1:]:
+            list.append(float(row[2]))
+    list = gemiddelde_per_uur(list)
+    return list
+
+def lees_zonneenergie():
+    list = []
+    #basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        rows = [row for row in data]
+        for row in rows[1:]:
+            list.append(row[3])
+    list = totaal_per_uur(list)
+    return list
+
+def lees_buitentemperatuur():
+    list = []
+    #basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        rows = [row for row in data]
+        for row in rows[1:]:
+            list.append(row[4])
+    list = gemiddelde_per_uur(list)
+    return list
+
+def totaal_per_uur(consumptie_per_kwartier):
+    consumptie_per_uur = []
+    while consumptie_per_kwartier != []:
+        som = 0.
+        for i in range(0,4):
+            som += float(consumptie_per_kwartier[i])
+        consumptie_per_uur.append(som)
+        del consumptie_per_kwartier[0:4]
+    return consumptie_per_uur
+
+def gemiddelde_per_uur(consumptie_per_kwartier):
+    consumptie_per_uur = []
+    while consumptie_per_kwartier != []:
+        som = 0
+        for i in range(0,4):
+            som += consumptie_per_kwartier[i]
+        consumptie_per_uur.append(som/4)
+        del consumptie_per_kwartier[0:4]
+    return consumptie_per_uur
 
 
 def commit_change_old(appliance_id=None, value=None):

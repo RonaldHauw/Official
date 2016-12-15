@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
             <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
       <link rel="stylesheet" href="{% static "css/bootstrap-theme.min.css" %}">
     <meta charset="utf-8">
@@ -15,7 +14,6 @@
      <link rel="icon" href="{% static "images/icoon.png" %}">
 
     <title>{% block title %}Slimme-energiewoningen{% endblock %}</title>
-
 
 
     <!-- Bootstrap core CSS -->
@@ -42,7 +40,6 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -63,7 +60,6 @@
 
             </ul>
 
-
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -73,14 +69,13 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>{% block topheader %}Welkom bij Slimme Energie Woningen{% endblock %}</h1>
+        <h2>{% block topheader %}Vergelijking tussen een slimme-energiewoning en een normaal huis{% endblock %}</h2>
         <p> {% block topheader_content %}
         Op deze pagina komt u alles te weten over de voordelen van Slimme Energie Woningen en het
             verschil voor uw energieverbruik. Er wordt gestreefd om zuiniger en meer bewust met energie om te gaan.
             Gebruik deze ideëen om zelf doelbewust te handelen en actief deel te nemen aan een betere wereld. </p>
         {% endblock %}
 {#        <p><a class="btn btn-primary btn-lg" href="#" role="button">Leer meer &raquo;</a></p>#}
-
 
       </div>
     </div>
@@ -89,37 +84,22 @@
       <!-- Example row of columns -->
       <div class="row">
         {% block left_col %}
-        <div class="col-md-4">
-          <h2>Energieverbruik</h2>
-          <p> Kom meer te weten over het verbruik van uw Woning. Op welke momenten is er duidelijk een hogere </p>
+        <div id="laatste">
+          <h2>Resultaat</h2>
+          <p> conclusie trekken hier </p>
           <p><a class="btn btn-default" href="#" role="button">Meer details &raquo;</a></p>
         </div>
           {% endblock %}
 
         {% block middle_col %}
-        <div class="col-md-4">
+        <div class="laatste">
           <h2>Optimalisatie</h2>
-          <p><a class="btn btn-default" href="#" role="button">Meer details &raquo;</a></p>
+          <p> wat is er geoptimaliseerd geweest? <a class="btn btn-default" href="#" role="button">Meer details &raquo;</a></p>
        </div>
       {% endblock %}
-
-      {% block right_col %}
-        <div class="col-md-4">
-          <h2>Besparing</h2>
-          <p></p>
-          <p><a class="btn btn-default" href="#" role="button">Meer details &raquo;</a></p>
-
-        </div>
+{% block right_col %}
       {% endblock %}
-
-
-
-
 </div>
-
-
-
-
 
 
     <div class="container">
@@ -146,71 +126,15 @@
 {% block showalldevices %}
           {% endblock %}
 
-    </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
       <div>
-
-
-
-
-
-
-
-
       <hr>
 
       <footer>
-        <p>&copy; 2016 Company, Inc.</p>
+        <p>&copy; 2016 P&03 ESAT4A1 </p>
       </footer>
     </div> <!-- /container -->
 
