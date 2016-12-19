@@ -2,6 +2,7 @@ from django.shortcuts import render
 # Create your views here.
 data = []
 data2 = []
+data3 = []
 from multiprocessing import Process
 from django.http import HttpResponse
 from django.template import loader
@@ -25,6 +26,7 @@ import models
 import helpfunctions
 import threading
 from threading import Thread
+import pandas as pd
 
 
 
@@ -170,13 +172,93 @@ def central_test():
             change_status_smart_2(7001, 000, 1)
     data.append("DAG IS AFGELOPEN !!!!!")
 
+
 def centralcontrol():
-    print('STARTING DAY IN HOUSE 1')
+    data3.append('STARTING DAY IN HOUSE 1')
 
     initialize()
 
     starttime = int(timeit.default_timer())
 
+
+    helpfunctions.initialize()
+
+    while int(timeit.default_timer() - starttime) < tijd_hele_dag:
+        data3.append("xxStarting a new loop, it is now %s seconden in real life o clck" % int(timeit.default_timer()-starttime))
+        curtime = int(timeit.default_timer() - starttime)
+        tijd_96 = time_tijd_hele_dag_naar_96(curtime)
+        house = models.House.objects.get(id=2)
+        data3.append("xxIn quarters %s" % int(tijd_96))
+
+
+        for room in house.room_set.all():
+            data3.append("In kamer %s" % room.name)
+            for smart_device in room.smart_devices_set.all():
+                data3.append("%s" % smart_device.ref_id)
+                list_of_values = lees_data('Pwasmachine')
+                print list_of_values, int(tijd_96), len(list_of_values)
+                data3.append("futFOCKIG")
+                change_status_2(smart_device.ref_id,int(value), 1)
+                data3.append(("Satatus is veranderd !!!!"))
+
+                # data.append("wtf scheelt er")
+                # if int(dead) - int(duration) - int(tijd_96) == 0:
+                #     data.append("-!!!!!!!!!!!!!!!!!!!!!!!!----Deadline wordt actief:----------------------------")
+                #     smart_device.status = 100
+                #     smart_device.save()
+                #     data.append("probleem met data als dit niet komt: reffer %s" % smart_device.ref_id)
+                #     change_status_smart_2(smart_device.ref_id, 100, 1)
+                #     data.append("probleem met change status Z")
+                #     data2.append(
+                #         "Ik verander nu apparaat %s zijn status naar %s omdat de deadline %s behaald moet worden, en het is nu al %s kwartier laat" % (
+                #         smart_device.name, 100, dead, tijd_96))
+                #     data.append("-----Activeren van apparaat: %s" % smart_device.ref_id)
+                # if int(dead) - int(tijd_96) == 0:
+                #     data.append("-----Deadline wordt inactief: uitschakelen apparaat------------------------------- ")
+                #     smart_device.status = 000
+                #     smart_device.save()
+                #     change_status_smart_2(smart_device.ref_id, 000, 1)
+                # data.append("checkpoint")
+
+            # for fridge in room.fridges_set.all():
+            #
+            #     list_of_values = lees_data('Pfrigo')
+            #     value = list_of_values[tijd_96]
+            #     change_status_2(fridge, value, 2)
+            #
+            # for battery in room.battery_set.all():
+            #
+            #     list_of_values = lees_data('Pbatterij')
+            #     value = list_of_values[tijd_96]
+            #     change_status_2(battery.ref_id, value, 3)
+            #
+            # for heating in room.heating_set.all():
+            #
+            #     list_of_values = lees_data('Pverwarming')
+            #     value = list_of_values[tijd_96]
+            #     change_status_2(heating.ref_id, value, 5)
+
+            #geen domme apparaten
+                # duration = int(dumb_device.duration)
+                # dead = dumb_device.deadlin
+                # data.append("%s" % dead)
+                # if int(dead) - duration - tijd_96 == 0:
+                #     data.append("-!!!!!!!!!!!!!!!!!!!!!!!!----Deadline wordt actief:----------------------------")
+                #     dumb_device.status = 100
+                #     dumb_device.save()
+                #     data.append("probleem met data als dit niet komt: reffer %s" % dumb_device.ref_id)
+                #     data2.append(
+                #         "Ik verander nu apparaat %s zijn status naar %s omdat de deadline %s behaald moet worden, en het is nu al %s kwartier laat" % (
+                #             dumb_device.name, 100, dead, tijd_96))
+                #
+                #     change_status_smart_2(dumb_device.ref_id, 100, 1)
+                #     data.append("probleem met change status Z")
+                #     data.append("-----Activeren van apparaat: %s" % dumb_device.ref_id)
+                # if int(dead) - tijd_96 == 0:
+                #     data.append("-----Deadline wordt inactief: uitschakelen apparaat------------------------------- ")
+                #     dumb_device.status = 000
+                #     dumb_device.save()
+                #     change_status_smart_2(dumb_device.ref_id, 000, 1)
 
 
 def init_auxilary(request):
@@ -359,109 +441,109 @@ testing = True
 
 
 ####################################################
-def read_prices():
-    list = []
-    with open('static/data/prijskwhperuur.csv') as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        for row in datat:
-            list.append(row[1])
-    return list
-
-
-def read_zonneintensiteit():
-    list = []
-    with open('static/data/zonneintensiteitwattpervierkantemeter.csv') as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        for row in datat:
-            list.append(row[1])
-    return list
-
-
-def read_windintensiteit():
-    list = []
-    with open('static/data/windinwijkmperseconde.csv') as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        for row in datat:
-            list.append(row[1])
-    return list
-
-import os
-
-
-def lees_basisconsumptie_slim_huis():
-    list = []
-    #basisconsumptie per kwartier
-    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
-    with open(data_path, "r") as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        rows = [row for row in datat]
-        for row in rows[1:]:
-            list.append(row[0])
-    list = totaal_per_uur(list)
-    return list
-
-
-def lees_totaal_verbruik_dom_huis():
-    list = []
-    #basisconsumptie per kwartier
-    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
-    with open(data_path, "r") as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        rows = [row for row in datat]
-        for row in rows[1:]:
-            list.append(row[1])
-    list = totaal_per_uur(list)
-    return list
-
-
-def lees_prijs_elektriciteit():
-    list = []
-    #basisconsumptie per kwartier
-    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
-    with open(data_path, "r") as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        rows = [row for row in datat]
-        for row in rows[1:]:
-            list.append(float(row[2]))
-    list = gemiddelde_per_uur(list)
-    return lis
-
-
-def lees_zonneenergie():
-    list = []
-    #basisconsumptie per kwartier
-    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
-    with open(data_path, "r") as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        rows = [row for row in datat]
-        for row in rows[1:]:
-            list.append(row[3])
-    list = totaal_per_uur(list)
-    return list
-
-
-def lees_buitentemperatuur():
-    list = []
-    #basisconsumptie per kwartier
-    data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
-    with open(data_path, "r") as datafile:
-        datat = csv.reader(datafile, delimiter=';')
-        rows = [row for row in datat]
-        for row in rows[1:]:
-            list.append(row[4])
-    list = gemiddelde_per_uur(list)
-    return list
-
-
-def totaal_per_uur(consumptie_per_kwartier):
-    consumptie_per_uur = []
-    while consumptie_per_kwartier != []:
-        som = 0.
-        for i in range(0,4):
-            som += float(consumptie_per_kwartier[i])
-        consumptie_per_uur.append(som)
-        del consumptie_per_kwartier[0:4]
-    return consumptie_per_uur
+# def read_prices():
+#     list = []
+#     with open('static/data/prijskwhperuur.csv') as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         for row in datat:
+#             list.append(row[1])
+#     return list
+#
+#
+# def read_zonneintensiteit():
+#     list = []
+#     with open('static/data/zonneintensiteitwattpervierkantemeter.csv') as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         for row in datat:
+#             list.append(row[1])
+#     return list
+#
+#
+# def read_windintensiteit():
+#     list = []
+#     with open('static/data/windinwijkmperseconde.csv') as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         for row in datat:
+#             list.append(row[1])
+#     return list
+#
+# import os
+#
+#
+# def lees_basisconsumptie_slim_huis():
+#     list = []
+#     #basisconsumptie per kwartier
+#     data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+#     with open(data_path, "r") as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         rows = [row for row in datat]
+#         for row in rows[1:]:
+#             list.append(row[0])
+#     list = totaal_per_uur(list)
+#     return list
+#
+#
+# def lees_totaal_verbruik_dom_huis():
+#     list = []
+#     #basisconsumptie per kwartier
+#     data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+#     with open(data_path, "r") as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         rows = [row for row in datat]
+#         for row in rows[1:]:
+#             list.append(row[1])
+#     list = totaal_per_uur(list)
+#     return list
+#
+#
+# def lees_prijs_elektriciteit():
+#     list = []
+#     #basisconsumptie per kwartier
+#     data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+#     with open(data_path, "r") as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         rows = [row for row in datat]
+#         for row in rows[1:]:
+#             list.append(float(row[2]))
+#     list = gemiddelde_per_uur(list)
+#     return list
+#
+#
+# def lees_zonneenergie():
+#     list = []
+#     #basisconsumptie per kwartier
+#     data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+#     with open(data_path, "r") as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         rows = [row for row in datat]
+#         for row in rows[1:]:
+#             list.append(row[3])
+#     list = totaal_per_uur(list)
+#     return list
+#
+#
+# def lees_buitentemperatuur():
+#     list = []
+#     #basisconsumptie per kwartier
+#     data_path = os.path.join(os.getcwd(), "neighbourhood","static", "data", "gegevens.csv")
+#     with open(data_path, "r") as datafile:
+#         datat = csv.reader(datafile, delimiter=';')
+#         rows = [row for row in datat]
+#         for row in rows[1:]:
+#             list.append(row[4])
+#     list = gemiddelde_per_uur(list)
+#     return list
+#
+#
+# def totaal_per_uur(consumptie_per_kwartier):
+#     consumptie_per_uur = []
+#     while consumptie_per_kwartier != []:
+#         som = 0.
+#         for i in range(0,4):
+#             som += float(consumptie_per_kwartier[i])
+#         consumptie_per_uur.append(som)
+#         del consumptie_per_kwartier[0:4]
+#     return consumptie_per_uur
 ###########################################################
 
 def gemiddelde_per_uur(consumptie_per_kwartier):
@@ -603,9 +685,29 @@ def give_auxilary_file(request):
         for row in data2:
             destinationfile.write(row)
             destinationfile.write('\n')
+    with open('aux3.txt','w') as destinationfile:
+        for row in data3:
+            destinationfile.write(row)
+            destinationfile.write('\n')
     template = loader.get_template('neighbourhood/indexneighbourhood.html')
     return HttpResponse(template.render(request))
+import os
 
+def lees_data(gevraagde_waarde):
+    list = []
+    # basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood", "static", "data", "Datafile.csv")
+    data3.append("futBIS")
+    df = pd.read_csv(data_path,delimiter=';')
+    df = df[~pd.isnull(df[gevraagde_waarde])]
 
+        # cols = [col for col in datat]
+        # rows = [row for row in datat]
+        # for col in cols:
+        #     if str(col[0]) == str(gevraagde_waarde):
+        #         i = cols.index(col)
+        # for row in rows[1:]:
+        #     list.append(row[i])
+    return df[gevraagde_waarde]
 
 
