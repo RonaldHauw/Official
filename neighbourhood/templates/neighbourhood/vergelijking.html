@@ -13,12 +13,20 @@
         <div id="laatste">
        <canvas id="comparison_energy" height="350", width="500"></canvas>
         </div>
+
+
+    <h4>Verbruik slimme-energiewoning: {{ slim_huis.energie|floatformat:0 }} kWh/dag</h4>
+    <h4>Verbruik normale woning: {{ dom_huis.energie|floatformat:0 }} kWh/dag</h4>
           {% endblock %}
 
   {% block middle_col %}
         <div id="laatste">
        <canvas id="comparison_price" height="350", width="500"></canvas>
         </div>
+
+            <h4>Kosten slimme-energiewoning: {{ slim_huis.kosten|floatformat:2 }}  Euro/dag</h4>
+    <h4>Kosten normale woning: {{ dom_huis.kosten|floatformat:2 }} Euro/dag</h4>
+    <h3>Winst: {{ winst|floatformat:2 }} Euro/dag</h3>
           {% endblock %}
 
   {% block right_col %}
@@ -52,7 +60,11 @@
             scales: {
                 yAxes: [{
                     type: 'linear',
-                    position: 'left'
+                    position: 'left',
+                    scaleLabel:{
+                        display: true,
+                        labelString: "Watt"
+                    },
                 }],
                 xAxes: [{
                     type: 'time',
@@ -145,7 +157,11 @@ var max_price = 0;
             scales: {
                 yAxes: [{
                     type: 'linear',
-                    position: 'left'
+                    position: 'left',
+                    scaleLabel:{
+                        display: true,
+                        labelString: "Euro"
+                    },
                 }],
                 xAxes: [{
                     type: 'time',
@@ -238,6 +254,10 @@ var max_onlyprice = 0;
                 yAxes: [{
                     type: 'linear',
                     position: 'left',
+                    scaleLabel:{
+                        display: true,
+                        labelString: "Euro per kwh"
+                    },
                      ticks: {
                                     beginAtZero: true
                                         },

@@ -30,10 +30,20 @@ class House(models.Model):
     def __str__(self):
         return self.name
 
+    @property
+    def kosten(self):
+        k = self.get_total_price()
+        return sum(k["Price"])
+
+    @property
+    def energie(self):
+        k = self.get_total_energy()
+        return sum(k["Energieverbruik"]) / 4000.
+
     def get_total_energy(self):
 
         ref_id = self.id
-        print ref_id
+
 
         total_energy = pd.DataFrame(
             {'Tijdstap': pd.date_range(str(date.today()), periods=24, freq='60Min'),

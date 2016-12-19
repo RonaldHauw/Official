@@ -4,11 +4,27 @@ import csv
 import math
 import Communicatie
 
-
 #######################################################################
 # CSV imports voor huidige omstandigheden
 # geven vanuit het csv bestand een lijst terug met daarin ...
 #######################################################################
+
+
+
+def lees_data(gevraagde_waarde):
+    list = []
+    # basisconsumptie per kwartier
+    data_path = os.path.join(os.getcwd(), "neighbourhood", "static", "data", "datafile.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        cols = [col for col in data]
+        rows = [row for row in data]
+        for col in cols:
+            if col[0] == gevraagde_waarde:
+                i = cols.index(col)
+        for row in rows[1:]:
+            list.append(row[i])
+    return list
 
 
 def change_status_2(device_id, value, type):
@@ -81,9 +97,21 @@ def lees_basisconsumptie_slim_huis():
         data = csv.reader(datafile, delimiter=';')
         rows = [row for row in data]
         for row in rows[1:]:
-            list.append(row[0])
+            list.append(row[5])
     list = totaal_per_uur(list)
     return list
+
+def totalekostprijs():
+    list = []
+    data_path = os.path.join(os.getcwd(), "neighbourhood", "static", "data", "gegevens.csv")
+    with open(data_path, "r") as datafile:
+        data = csv.reader(datafile, delimiter=';')
+        rows = [row for row in data]
+        for row in rows[1:]:
+            list.append(row[14])
+    list = totaal_per_uur(list)
+    return list
+
 
 def lees_totaal_verbruik_dom_huis():
     list = []
@@ -93,7 +121,7 @@ def lees_totaal_verbruik_dom_huis():
         data = csv.reader(datafile, delimiter=';')
         rows = [row for row in data]
         for row in rows[1:]:
-            list.append(row[1])
+            list.append(row[14])
     list = totaal_per_uur(list)
     return list
 
@@ -105,7 +133,7 @@ def lees_prijs_elektriciteit():
         data = csv.reader(datafile, delimiter=';')
         rows = [row for row in data]
         for row in rows[1:]:
-            list.append(float(row[2]))
+            list.append(float(row[11]))
     list = gemiddelde_per_uur(list)
     return list
 
@@ -117,7 +145,7 @@ def lees_zonneenergie():
         data = csv.reader(datafile, delimiter=';')
         rows = [row for row in data]
         for row in rows[1:]:
-            list.append(row[3])
+            list.append(row[13])
     list = totaal_per_uur(list)
     return list
 
@@ -172,6 +200,7 @@ def commit_change_old(appliance_id=None, value=None):
                 'pin': pin}
     Communicatie.SendInformation('%s:8080' % house.ip, message) # eerst de standaard url die naar het huis verwijst, in die huis bevat de message
     # de room waarnaar het moet gaan
+
 def commit_change(appliance_id=None, value=None):
     """
     verandert de opgegeven parameter van een  apparaat in de gegeven value

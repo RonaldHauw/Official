@@ -2,19 +2,11 @@
 {% load static %}
 {% block title %} Slimme energiewoningen | {{ house.name}}{% endblock %}
 
-{% block topheader %}{{ house.name }}{% endblock %}
+{% block topheader %} Welkom bij het {{ house.name }}{% endblock %}
 
 
 {% block topheader_content %}
-    Mijn kamers zijn:
-    <ul>
-{#    <li> <a href="/neighbourhood/models"> models</a></li>#}
-        {% for room in house.room_set.all %}
-{#    {% for room in House.objects.all %}#}
-   <li><a href="{% url "Room" room.id %}">{{ room.name }}</a></li>
-{#            <h3> {{ room.name }}</h3>#}
-    {% endfor %}
-    </ul>
+
 {% endblock %}
 
 
@@ -191,7 +183,11 @@ function respondCanvasEnergy() {
             scales: {
                 yAxes: [{
                     type: 'linear',
-                    position: 'left'
+                    position: 'left',
+                    scaleLabel:{
+                        display: true,
+                        labelString: "Watt"
+                    },
                 }],
                 xAxes: [{
                     type: 'time',
@@ -203,10 +199,6 @@ function respondCanvasEnergy() {
                     position: 'bottom'
                 }]
             },
-{#            title: {#}
-{#                display: true,#}
-{#                text: 'Energieverbruik in Watt per uur'#}
-{#            }#}
         }
     });
     }
@@ -259,28 +251,31 @@ function respondCanvasPrice() {
     var chart = new Chart(c, {
         type: 'line',
         data: chartData_price,
-        options: {
+                options: {
             scales: {
                 yAxes: [{
                     type: 'linear',
-                    position: 'left'
+                    position: 'left',
+                    scaleLabel:{
+                        display: true,
+                        labelString: "Euro"
+                    },
                 }],
                 xAxes: [{
                     type: 'time',
                     time: {
+
                         unit: 'hour'
 
                     },
                     position: 'bottom'
                 }]
             },
-{#            title: {#}
-{#                display: true,#}
-{#                text: 'Kosten aan energie per uur'#}
-{#            }#}
         }
     });
     }
+
+
 
 var GetChartDataPrice = function () {
     $.ajax({
@@ -334,6 +329,10 @@ function respondCanvasonlyprice() {
                 yAxes: [{
                     type: 'linear',
                     position: 'left',
+                                scaleLabel:{
+                        display: true,
+                        labelString: "Euro per kwh"
+                    },
                                 ticks: {
                                     beginAtZero: true
                                         }}],
@@ -346,13 +345,11 @@ function respondCanvasonlyprice() {
                     position: 'bottom'
                 }]
             },
-{#            title: {#}
-{#                display: true,#}
-{#                text: 'Kosten aan energie per uur'#}
-{#            }#}
+
         }
     });
     }
+
 
 var GetChartDataonlyprice = function () {
     $.ajax({
