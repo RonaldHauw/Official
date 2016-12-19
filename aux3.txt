@@ -2,7 +2,5221 @@ STARTING DAY IN HOUSE 1
 xxStarting a new loop, it is now 1 seconden in real life o clck
 xxIn quarters 2
 In kamer Keuken
-2130
-futA    2
+Smartdevice ref 2040
+2030
 futBIS
-futB
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 1 seconden in real life o clck
+xxIn quarters 2
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 1 seconden in real life o clck
+xxIn quarters 2
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 1 seconden in real life o clck
+xxIn quarters 2
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 1 seconden in real life o clck
+xxIn quarters 2
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 1 seconden in real life o clck
+xxIn quarters 2
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 2 seconden in real life o clck
+xxIn quarters 4
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 3 seconden in real life o clck
+xxIn quarters 7
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 4 seconden in real life o clck
+xxIn quarters 9
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 5 seconden in real life o clck
+xxIn quarters 12
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 6 seconden in real life o clck
+xxIn quarters 14
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 7 seconden in real life o clck
+xxIn quarters 16
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 8 seconden in real life o clck
+xxIn quarters 19
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 9 seconden in real life o clck
+xxIn quarters 21
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 10 seconden in real life o clck
+xxIn quarters 24
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 11 seconden in real life o clck
+xxIn quarters 26
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 12 seconden in real life o clck
+xxIn quarters 28
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 13 seconden in real life o clck
+xxIn quarters 31
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 14 seconden in real life o clck
+xxIn quarters 33
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 15 seconden in real life o clck
+xxIn quarters 36
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 16 seconden in real life o clck
+xxIn quarters 38
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 17 seconden in real life o clck
+xxIn quarters 40
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 18 seconden in real life o clck
+xxIn quarters 43
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 19 seconden in real life o clck
+xxIn quarters 45
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 000 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 20 seconden in real life o clck
+xxIn quarters 48
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 21 seconden in real life o clck
+xxIn quarters 50
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 100 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 22 seconden in real life o clck
+xxIn quarters 52
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
+Status veranderd van apparaat Wasmachine naar 000 
+In kamer Garage
+Smartdevice ref 1001
+Smartdevice ref 7000
+Smartdevice ref 7001
+3001
+futBIS
+Status veranderd van apparaat Verwarming naar 000 
+xxStarting a new loop, it is now 23 seconden in real life o clck
+xxIn quarters 55
+In kamer Keuken
+Smartdevice ref 2040
+2030
+futBIS
+Status veranderd van apparaat Koelkast naar 100 
+In kamer Woonkamer
+In kamer Gang
+In kamer Badkamer
+Smartdevice ref 1002
+1002
+futBIS
