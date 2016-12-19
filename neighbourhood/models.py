@@ -157,6 +157,7 @@ class Smart_Devices(models.Model):
     pin_type = models.CharField(max_length=100, default=0)
     status_function = models.CharField(max_length=100, default=0)
     optimal_status = models.CharField(max_length=100, default=0)
+    deadlin = models.CharField(max_length=100, default=0)
 
     description = models.TextField()
     room = models.ForeignKey(Room)
@@ -303,6 +304,8 @@ class Stupid_Devices(models.Model):
     status = models.CharField(max_length=100, default=0)
     pin_number = models.CharField(max_length=100, default=0)
     pin_type = models.CharField(max_length=100, default=0)
+    deadlin = models.CharField(max_length=100, default=0)
+    duration =  models.CharField(max_length=100, default=0)
 
     description = models.TextField()
     room = models.ForeignKey(Room)
