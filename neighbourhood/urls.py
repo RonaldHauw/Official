@@ -23,10 +23,11 @@ urlpatterns = [
     url(r'^testinterface',views.testinterface, name='testinterface'),
     url(r'^status/(?P<device_id>[0-9]+)/(?P<value>[0-9]+)/(?P<roomorhouse>[0-9]+)/(?P<type>[0-9]+)$', auxilary.change_status, name='status'),
     url(r'^doityourself',views.handmatig, name='handmatig'),
-    url(r'^start/(?P<house_id>[0-9]+)/(?P<roomorhouse>[0-9]+)/', auxilary.daytime, name='start'),
+    url(r'^start', auxilary.daytime, name='start'),
     url(r'^optimalisated',views.vergelijking, name = 'vergelijking'),
     url(r'^initialise', auxilary.initialise, name='initialise'),
-
+    url(r'^output', auxilary.give_auxilary_file, name='give_output'),
+    url(r'^initaux', auxilary.init_auxilary, name='initaux'),
 
 ]
 

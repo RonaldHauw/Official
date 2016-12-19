@@ -144,6 +144,7 @@ def chartdata_comparisonprice(request, house_id_1, house_id_2):
 
 def vergelijking(request):
     template = loader.get_template('neighbourhood/vergelijking.html')
+
     slim_huis = House.objects.get(id= 1)
     dom_huis = House.objects.get(id= 2)
     context = {"slim_huis": slim_huis, "dom_huis": dom_huis, "winst": dom_huis.kosten - slim_huis.kosten}

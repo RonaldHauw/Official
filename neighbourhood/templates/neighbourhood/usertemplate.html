@@ -57,6 +57,7 @@
                 <li><a href={% url 'House' 1 %}>Huis 1</a></li>
                 <li><a href={% url 'House' 2 %}>Huis 2</a></li>
                 <li><a href={% url 'vergelijking' %}>Vergelijking</a></li>
+                <li><a href={% url "start" %}>Start een dag</a></li>
 
             </ul>
 
@@ -132,7 +133,9 @@
       <hr>
 
       <footer>
-        <p>&copy; 2016 P&03 ESAT4A1 </p>
+        <p onclick=location.href="{% url "initialise" %}">Initialiseer de demo-opstelling</p>
+          <p onclick=location.href="{% url "give_output" %}">Geef logboek</p>
+          <p onclick=location.href="{% url "initaux" %}">initialiseer logboek</p>
       </footer>
     </div> <!-- /container -->
 
