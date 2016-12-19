@@ -33,7 +33,7 @@ class House(models.Model):
     def get_total_energy(self):
 
         ref_id = self.id
-        print ref_id
+
 
         total_energy = pd.DataFrame(
             {'Tijdstap': pd.date_range(str(date.today()), periods=24, freq='60Min'),
