@@ -187,56 +187,94 @@ def centralcontrol():
         data3.append("xxStarting a new loop, it is now %s seconden in real life o clck" % int(timeit.default_timer()-starttime))
         curtime = int(timeit.default_timer() - starttime)
         tijd_96 = time_tijd_hele_dag_naar_96(curtime)
-        house = models.House.objects.get(id=2)
+        house = models.House.objects.get(id=1)
         data3.append("xxIn quarters %s" % int(tijd_96))
 
 
         for room in house.room_set.all():
             data3.append("In kamer %s" % room.name)
             for smart_device in room.smart_devices_set.all():
-                data3.append("%s" % smart_device.ref_id)
-                list_of_values = lees_data('Pwasmachine')
-                print list_of_values, int(tijd_96), len(list_of_values)
-                data3.append("futFOCKIG")
-                change_status_2(smart_device.ref_id,int(value), 1)
-                data3.append(("Satatus is veranderd !!!!"))
+                data3.append("Smartdevice ref %s" % smart_device.ref_id)
 
-                # data.append("wtf scheelt er")
-                # if int(dead) - int(duration) - int(tijd_96) == 0:
-                #     data.append("-!!!!!!!!!!!!!!!!!!!!!!!!----Deadline wordt actief:----------------------------")
-                #     smart_device.status = 100
-                #     smart_device.save()
-                #     data.append("probleem met data als dit niet komt: reffer %s" % smart_device.ref_id)
-                #     change_status_smart_2(smart_device.ref_id, 100, 1)
-                #     data.append("probleem met change status Z")
-                #     data2.append(
-                #         "Ik verander nu apparaat %s zijn status naar %s omdat de deadline %s behaald moet worden, en het is nu al %s kwartier laat" % (
-                #         smart_device.name, 100, dead, tijd_96))
-                #     data.append("-----Activeren van apparaat: %s" % smart_device.ref_id)
-                # if int(dead) - int(tijd_96) == 0:
-                #     data.append("-----Deadline wordt inactief: uitschakelen apparaat------------------------------- ")
-                #     smart_device.status = 000
-                #     smart_device.save()
-                #     change_status_smart_2(smart_device.ref_id, 000, 1)
-                # data.append("checkpoint")
+                if int(smart_device.ref_id) == 1002:
 
-            # for fridge in room.fridges_set.all():
-            #
-            #     list_of_values = lees_data('Pfrigo')
-            #     value = list_of_values[tijd_96]
-            #     change_status_2(fridge, value, 2)
-            #
-            # for battery in room.battery_set.all():
-            #
+                    data3.append("%s" % smart_device.ref_id)
+                    list_of_values = lees_data('Pwasmachine')
+                    maxvalue = max(list_of_values)
+
+                    curvalue = int(list_of_values[tijd_96]/maxvalue)
+                    curvalue*=100
+
+                    if curvalue == 0:
+                        curvalue = '000'
+                    change_status_smart_2(smart_device.ref_id,str(curvalue), 1)
+
+
+
+                    smart_device.status = curvalue
+                    smart_device.save()
+
+
+                    data3.append("Status veranderd van apparaat %s naar %s " %(smart_device.name, curvalue))
+
+
+
+
+            for device in room.fridges_set.all():
+
+                if int(device.ref_id) == 2030:
+                    data3.append("%s" % device.ref_id)
+                    list_of_values = lees_data('Pfrigo')
+                    maxvalue = max(list_of_values)
+
+                    curvalue = int(list_of_values[tijd_96] / maxvalue)
+                    curvalue *=100
+
+                    if curvalue == 0:
+                        curvalue = '000'
+                    change_status_smart_2(device.ref_id, str(curvalue), 2)
+
+                    device.status = curvalue
+                    device.save()
+
+                    data3.append("Status veranderd van apparaat %s naar %s " %(device.name, curvalue))
+
+
+
+            # for device in room.battery_set.all():
+            #     data3.append("%s" % device.ref_id)
             #     list_of_values = lees_data('Pbatterij')
-            #     value = list_of_values[tijd_96]
-            #     change_status_2(battery.ref_id, value, 3)
+            #     maxvalue = max(list_of_values)
             #
-            # for heating in room.heating_set.all():
+            #     curvalue = int(list_of_values[tijd_96] / maxvalue)
+            #     curvalue *=100
             #
-            #     list_of_values = lees_data('Pverwarming')
-            #     value = list_of_values[tijd_96]
-            #     change_status_2(heating.ref_id, value, 5)
+            #     if curvalue == 0:
+            #         curvalue = '000'
+            #     change_status_smart_2(device.ref_id, str(curvalue), 3)
+            #
+            #     device.status = curvalue
+            #     device.save()
+            #
+            #     data3.append("Status veranderd van apparaat %s naar %s " %(device.name, curvalue))
+
+
+        for device in house.heating_set.all():
+            data3.append("%s" % device.ref_id)
+            list_of_values = lees_data('Pverwarming')
+            maxvalue = max(list_of_values)
+
+            curvalue = int(list_of_values[tijd_96] / maxvalue)
+            curvalue *=100
+            if curvalue == 0:
+                curvalue = '000'
+            change_status_smart_2(device.ref_id, str(curvalue), 5)
+
+            device.status = curvalue
+            device.save()
+
+            data3.append("Status veranderd van apparaat %s naar %s " %(device.name, curvalue))
+
 
             #geen domme apparaten
                 # duration = int(dumb_device.duration)

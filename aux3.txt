@@ -1,8 +1,2 @@
 STARTING DAY IN HOUSE 1
-xxStarting a new loop, it is now 1 seconden in real life o clck
-xxIn quarters 2
-In kamer Keuken
-2130
-futA    2
-futBIS
-futB
+STARTING DAY IN HOUSE 1
